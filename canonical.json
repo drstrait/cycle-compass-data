@@ -1,0 +1,147 @@
+{
+  "version": "1.0",
+  "chain": "2130",
+  "trade_date": "20260828",
+  "generated_at": "2026-08-30T22:30:00+08:00",
+  "market": {
+    "volume_yi": 21015,
+    "volume_ma20_yi": 22442,
+    "volume_ratio": 0.94,
+    "breadth_up": 2796,
+    "breadth_down": 2270,
+    "breadth_pct": 53.7
+  },
+  "ew": {
+    "value": 916.6,
+    "ma20": 900.73,
+    "ma60": 895.65,
+    "spread_pct": -0.32
+  },
+  "regime": {
+    "state": "震荡(修复)",
+    "streak_days": 11,
+    "pending_transition": "上升(第2日)"
+  },
+  "limits": {
+    "up_count": 82,
+    "down_count": 1,
+    "max_streak": 7,
+    "ladder": [
+      {
+        "height": 7,
+        "count": 1
+      },
+      {
+        "height": 5,
+        "count": 1
+      },
+      {
+        "height": 4,
+        "count": 3
+      },
+      {
+        "height": 3,
+        "count": 3
+      },
+      {
+        "height": 2,
+        "count": 10
+      },
+      {
+        "height": 1,
+        "count": 64
+      }
+    ],
+    "promotion_rate_pct": 23,
+    "fried_rate_pct": 16,
+    "yesterday_premium_pct": 3.3,
+    "auction_one_word_count": 6
+  },
+  "sectors": {
+    "top": [
+      {
+        "name": "氮肥",
+        "pct": 7.3
+      },
+      {
+        "name": "房产租赁经纪",
+        "pct": 5.4
+      },
+      {
+        "name": "运动服装",
+        "pct": 5.1
+      }
+    ],
+    "bottom": [
+      {
+        "name": "疫苗",
+        "pct": -3.9
+      },
+      {
+        "name": "医疗研发外包",
+        "pct": -3.6
+      },
+      {
+        "name": "通信线缆及配套",
+        "pct": -3.4
+      }
+    ]
+  },
+  "mustread": [
+    {
+      "code": "000017",
+      "name": "深中华A",
+      "streak": 7,
+      "industry": "服饰",
+      "tor_f": 46.0,
+      "first_seal": "093300",
+      "open_times": 14,
+      "seal_yi": 0.1
+    },
+    {
+      "code": "002084",
+      "name": "海鸥住工",
+      "streak": 5,
+      "industry": "家居用品",
+      "tor_f": 2.0,
+      "first_seal": "092500",
+      "open_times": 0,
+      "seal_yi": 3.61
+    },
+    {
+      "code": "002742",
+      "name": "冀衡医药",
+      "streak": 4,
+      "industry": "化学制药",
+      "tor_f": 56.0,
+      "first_seal": "093000",
+      "open_times": 3,
+      "seal_yi": 0.41
+    },
+    {
+      "code": "002855",
+      "name": "捷荣技术",
+      "streak": 4,
+      "industry": "元器件",
+      "tor_f": 6.0,
+      "first_seal": "092500",
+      "open_times": 0,
+      "seal_yi": 0.63
+    },
+    {
+      "code": "600371",
+      "name": "万向德农",
+      "streak": 4,
+      "industry": "种植业",
+      "tor_f": 3.0,
+      "first_seal": "092502",
+      "open_times": 0,
+      "seal_yi": 1.63
+    }
+  ],
+  "j1": {
+    "threshold_yi": 23000,
+    "value_yi": 21015,
+    "green": false
+  }
+}
