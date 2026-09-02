@@ -1,4 +1,4 @@
-# canonical.json 数据契约 v1.0
+# canonical.json 数据契约 v1.1(v1.0 + 交易日历新鲜度字段)
 
 ```json
 {
@@ -68,3 +68,15 @@
 - `mustread`:观照必翻清单中的连板条目,按连板数降序取前 10(与日报涨停梯队一致);`tor_f`=自由流通换手%,`seal_yi`=封单亿元,`first_seal`=首次封板时间。
 - `sectors.top/bottom`:东财行业板块涨跌幅前 5 / 后 5(概念板块不入总线)。
 - `market.volume_yi` / `j1.value_yi`:沪深两市成交额(不含北交所)。
+
+## v1.1(2026-09-02):新鲜度按交易日历(用户裁决,取代固定小时数)
+
+新增顶层字段,由观照发布(交易日历权威 = Tushare SSE 日历),司南只做比较、不自算日历:
+
+- `next_trade_date`:`"YYYYMMDD"`,`trade_date` 之后的第一个交易日;
+- `valid_until`:ISO8601 带时区,= `next_trade_date` 的 `16:10:00+08:00`(15:50 链 + 20 分钟宽限)。
+
+前端「当前」判定 = `now ≤ valid_until` ∧ `status=ready` ∧ 无传感器故障 ∧ `version` 主号 = 1。
+由此周一盘中沿用上周五正典、节后沿用节前最后交易日正典自动成立;`valid_until` 一过即为过期 → 降级。
+**缺 `valid_until` 的旧文件 = schema 不兼容 → 降级**。降级态下禁止方向性/买卖性 Bark,只允许中性数据故障提示(cycle-compass #20)。
+`version` 升为 `"1.1"`;1.0 消费者忽略新增字段即可(向后兼容)。
