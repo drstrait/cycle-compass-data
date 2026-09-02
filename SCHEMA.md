@@ -80,3 +80,5 @@
 由此周一盘中沿用上周五正典、节后沿用节前最后交易日正典自动成立;`valid_until` 一过即为过期 → 降级。
 **缺 `valid_until` 的旧文件 = schema 不兼容 → 降级**。降级态下禁止方向性/买卖性 Bark,只允许中性数据故障提示(cycle-compass #20)。
 `version` 升为 `"1.1"`;1.0 消费者忽略新增字段即可(向后兼容)。
+
+> **过渡期(2026-09-02 起)**:线上司南 main 的引擎硬判 `version !== "1.0"` 即抛错,故观照暂以 `version: "1.0"` 发布并**同时携带** `next_trade_date` / `valid_until`(旧引擎忽略新字段;#20 分支按主版本号兼容并读取)。cycle-compass #20 合并上线后,观照 `export_canonical.SCHEMA_VERSION` 切回 `"1.1"`。
