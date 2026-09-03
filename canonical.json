@@ -1,99 +1,99 @@
 {
   "version": "1.1",
   "chain": "1550",
-  "trade_date": "20260902",
-  "generated_at": "2026-09-02T19:47:57+08:00",
-  "next_trade_date": "20260903",
-  "valid_until": "2026-09-03T16:10:00+08:00",
+  "trade_date": "20260903",
+  "generated_at": "2026-09-03T15:50:53+08:00",
+  "next_trade_date": "20260904",
+  "valid_until": "2026-09-04T16:10:00+08:00",
   "market": {
-    "volume_yi": 17909,
-    "volume_ma20_yi": 21984,
+    "volume_yi": 17587,
+    "volume_ma20_yi": 21599,
     "volume_ratio": 0.81,
-    "breadth_up": 1247,
-    "breadth_down": 3858,
-    "breadth_pct": 23.9
+    "breadth_up": 1805,
+    "breadth_down": 3275,
+    "breadth_pct": 34.6
   },
   "ew": {
-    "value": 918.84,
-    "ma20": 908.63,
-    "ma60": 894.83,
-    "spread_pct": -0.11
+    "value": 916.03,
+    "ma20": 909.88,
+    "ma60": 894.65,
+    "spread_pct": 0.33
   },
   "regime": {
     "state": "上升(背离)",
-    "streak_days": 3,
+    "streak_days": 4,
     "pending_transition": null
   },
   "limits": {
-    "up_count": 52,
-    "down_count": 8,
-    "max_streak": 4,
+    "up_count": 44,
+    "down_count": 16,
+    "max_streak": 5,
     "ladder": [
+      {
+        "height": 5,
+        "count": 1
+      },
       {
         "height": 4,
         "count": 2
       },
       {
-        "height": 3,
-        "count": 4
-      },
-      {
         "height": 2,
-        "count": 7
+        "count": 6
       },
       {
         "height": 1,
-        "count": 39
+        "count": 35
       }
     ],
-    "promotion_rate_pct": 16,
-    "fried_rate_pct": 22,
-    "yesterday_premium_pct": 1.1,
-    "auction_one_word_count": 14
+    "promotion_rate_pct": 17,
+    "fried_rate_pct": 43,
+    "yesterday_premium_pct": 1.2,
+    "auction_one_word_count": 7
   },
   "sectors": {
     "top": [
       {
-        "name": "地面兵装Ⅲ",
-        "pct": 5.9
+        "name": "旅游零售Ⅲ",
+        "pct": 6.0
       },
       {
-        "name": "地面兵装Ⅱ",
-        "pct": 5.9
+        "name": "旅游零售Ⅱ",
+        "pct": 6.0
       },
       {
-        "name": "化妆品制造及其他",
-        "pct": 5.3
+        "name": "白银",
+        "pct": 4.7
       },
       {
-        "name": "化妆品",
-        "pct": 3.0
+        "name": "涂料",
+        "pct": 3.8
       },
       {
-        "name": "其他橡胶制品",
-        "pct": 2.6
+        "name": "金属包装",
+        "pct": 3.5
       }
     ],
     "bottom": [
       {
-        "name": "粮食种植",
-        "pct": -8.8
+        "name": "房地产综合服务",
+        "pct": -6.4
       },
       {
-        "name": "种子",
-        "pct": -7.7
+        "name": "水产饲料",
+        "pct": -4.9
       },
       {
-        "name": "食用菌",
-        "pct": -6.5
-      },
-      {
-        "name": "种植业",
-        "pct": -5.9
+        "name": "房产租赁经纪",
+        "pct": -4.4
       },
       {
         "name": "文字媒体",
-        "pct": -5.0
+        "pct": -4.1
+      },
+      {
+        "name": "农业综合Ⅲ",
+        "pct": -3.6
       }
     ]
   },
@@ -101,107 +101,97 @@
     {
       "code": "601086",
       "name": "国芳集团",
-      "streak": 4,
+      "streak": 5,
       "industry": "一般零售",
-      "tor_f": 3.3,
-      "first_seal": "092500",
-      "open_times": 0,
-      "seal_yi": 3.1
-    },
-    {
-      "code": "003005",
-      "name": "竞业达",
-      "streak": 4,
-      "industry": "IT服务Ⅱ",
-      "tor_f": 4.2,
-      "first_seal": "092500",
-      "open_times": 0,
-      "seal_yi": 1.8
-    },
-    {
-      "code": "000892",
-      "name": "欢瑞世纪",
-      "streak": 3,
-      "industry": "影视院线",
-      "tor_f": 3.8,
-      "first_seal": "092500",
-      "open_times": 0,
-      "seal_yi": 3.9
-    },
-    {
-      "code": "600892",
-      "name": "大晟文化",
-      "streak": 3,
-      "industry": "游戏Ⅱ",
-      "tor_f": 3.1,
-      "first_seal": "092503",
-      "open_times": 0,
-      "seal_yi": 1.3
+      "tor_f": 33.5,
+      "first_seal": "093037",
+      "open_times": 2,
+      "seal_yi": 1.1
     },
     {
       "code": "002909",
       "name": "集泰股份",
-      "streak": 3,
+      "streak": 4,
       "industry": "化学制品",
-      "tor_f": 11.6,
+      "tor_f": 20.1,
       "first_seal": "092500",
-      "open_times": 0,
-      "seal_yi": 0.7
+      "open_times": 1,
+      "seal_yi": 0.9
     },
     {
       "code": "605577",
       "name": "龙版传媒",
-      "streak": 3,
+      "streak": 4,
       "industry": "出版",
-      "tor_f": 29.2,
-      "first_seal": "093805",
+      "tor_f": 54.1,
+      "first_seal": "093208",
+      "open_times": 2,
+      "seal_yi": 0.4
+    },
+    {
+      "code": "002059",
+      "name": "云南旅游",
+      "streak": 2,
+      "industry": "旅游及景",
+      "tor_f": 5.6,
+      "first_seal": "092500",
+      "open_times": 0,
+      "seal_yi": 1.9
+    },
+    {
+      "code": "002300",
+      "name": "太阳电缆",
+      "streak": 2,
+      "industry": "电网设备",
+      "tor_f": 15.3,
+      "first_seal": "093203",
+      "open_times": 0,
+      "seal_yi": 1.2
+    },
+    {
+      "code": "002297",
+      "name": "博云新材",
+      "streak": 2,
+      "industry": "航空装备",
+      "tor_f": 37.8,
+      "first_seal": "102554",
+      "open_times": 5,
+      "seal_yi": 1.1
+    },
+    {
+      "code": "603270",
+      "name": "金帝股份",
+      "streak": 2,
+      "industry": "通用设备",
+      "tor_f": 12.8,
+      "first_seal": "093351",
+      "open_times": 0,
+      "seal_yi": 0.8
+    },
+    {
+      "code": "600657",
+      "name": "信达地产",
+      "streak": 2,
+      "industry": "房地产开",
+      "tor_f": 17.5,
+      "first_seal": "102756",
       "open_times": 0,
       "seal_yi": 0.7
     },
     {
-      "code": "600967",
-      "name": "内蒙一机",
+      "code": "002708",
+      "name": "光洋股份",
       "streak": 2,
-      "industry": "地面兵装",
-      "tor_f": 8.5,
-      "first_seal": "093445",
-      "open_times": 0,
-      "seal_yi": 2.8
-    },
-    {
-      "code": "000635",
-      "name": "英 力 特",
-      "streak": 2,
-      "industry": "化学原料",
-      "tor_f": 4.9,
-      "first_seal": "092500",
-      "open_times": 0,
-      "seal_yi": 0.9
-    },
-    {
-      "code": "002104",
-      "name": "恒宝股份",
-      "streak": 2,
-      "industry": "通信设备",
-      "tor_f": 24.0,
-      "first_seal": "101942",
-      "open_times": 1,
-      "seal_yi": 0.9
-    },
-    {
-      "code": "600828",
-      "name": "茂业商业",
-      "streak": 2,
-      "industry": "一般零售",
-      "tor_f": 17.2,
-      "first_seal": "092501",
-      "open_times": 1,
-      "seal_yi": 0.6
+      "industry": "汽车零部",
+      "tor_f": 26.1,
+      "first_seal": "095012",
+      "open_times": 20,
+      "seal_yi": 0.1
     }
   ],
   "j1": {
     "threshold_yi": 23000,
-    "value_yi": 17909,
+    "value_yi": 17587,
     "green": false
   }
 }
