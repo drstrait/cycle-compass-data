@@ -1,32 +1,32 @@
 {
   "version": "1.1",
   "chain": "1550",
-  "trade_date": "20260903",
-  "generated_at": "2026-09-03T15:50:53+08:00",
-  "next_trade_date": "20260904",
-  "valid_until": "2026-09-04T16:10:00+08:00",
+  "trade_date": "20260904",
+  "generated_at": "2026-09-04T15:50:53+08:00",
+  "next_trade_date": "20260907",
+  "valid_until": "2026-09-07T16:10:00+08:00",
   "market": {
-    "volume_yi": 17587,
-    "volume_ma20_yi": 21599,
-    "volume_ratio": 0.81,
-    "breadth_up": 1805,
-    "breadth_down": 3275,
-    "breadth_pct": 34.6
+    "volume_yi": 20304,
+    "volume_ma20_yi": 21282,
+    "volume_ratio": 0.95,
+    "breadth_up": 2249,
+    "breadth_down": 2773,
+    "breadth_pct": 43.2
   },
   "ew": {
-    "value": 916.03,
-    "ma20": 909.88,
-    "ma60": 894.65,
-    "spread_pct": 0.33
+    "value": 912.96,
+    "ma20": 910.58,
+    "ma60": 894.61,
+    "spread_pct": 0.04
   },
   "regime": {
     "state": "上升(背离)",
-    "streak_days": 4,
+    "streak_days": 5,
     "pending_transition": null
   },
   "limits": {
-    "up_count": 44,
-    "down_count": 16,
+    "up_count": 39,
+    "down_count": 9,
     "max_streak": 5,
     "ladder": [
       {
@@ -34,164 +34,140 @@
         "count": 1
       },
       {
-        "height": 4,
-        "count": 2
-      },
-      {
         "height": 2,
         "count": 6
       },
       {
         "height": 1,
-        "count": 35
+        "count": 32
       }
     ],
-    "promotion_rate_pct": 17,
-    "fried_rate_pct": 43,
-    "yesterday_premium_pct": 1.2,
-    "auction_one_word_count": 7
+    "promotion_rate_pct": 16,
+    "fried_rate_pct": 55,
+    "yesterday_premium_pct": 1.7,
+    "auction_one_word_count": 8
   },
   "sectors": {
     "top": [
       {
-        "name": "旅游零售Ⅲ",
+        "name": "畜禽饲料",
+        "pct": 8.5
+      },
+      {
+        "name": "生猪养殖",
+        "pct": 6.2
+      },
+      {
+        "name": "教育运营及其他",
+        "pct": 6.1
+      },
+      {
+        "name": "饲料",
         "pct": 6.0
       },
       {
-        "name": "旅游零售Ⅱ",
-        "pct": 6.0
-      },
-      {
-        "name": "白银",
-        "pct": 4.7
-      },
-      {
-        "name": "涂料",
-        "pct": 3.8
-      },
-      {
-        "name": "金属包装",
-        "pct": 3.5
+        "name": "视频媒体",
+        "pct": 5.5
       }
     ],
     "bottom": [
       {
-        "name": "房地产综合服务",
-        "pct": -6.4
+        "name": "玻纤制造",
+        "pct": -4.8
       },
       {
-        "name": "水产饲料",
-        "pct": -4.9
-      },
-      {
-        "name": "房产租赁经纪",
-        "pct": -4.4
-      },
-      {
-        "name": "文字媒体",
+        "name": "半导体设备",
         "pct": -4.1
       },
       {
-        "name": "农业综合Ⅲ",
-        "pct": -3.6
+        "name": "半导体材料",
+        "pct": -3.8
+      },
+      {
+        "name": "电子化学品Ⅲ",
+        "pct": -3.5
+      },
+      {
+        "name": "电子化学品Ⅱ",
+        "pct": -3.5
       }
     ]
   },
   "mustread": [
     {
-      "code": "601086",
-      "name": "国芳集团",
+      "code": "605577",
+      "name": "龙版传媒",
       "streak": 5,
-      "industry": "一般零售",
-      "tor_f": 33.5,
-      "first_seal": "093037",
+      "industry": "出版",
+      "tor_f": 35.4,
+      "first_seal": "093109",
       "open_times": 2,
-      "seal_yi": 1.1
+      "seal_yi": 0.8
     },
     {
-      "code": "002909",
-      "name": "集泰股份",
-      "streak": 4,
-      "industry": "化学制品",
-      "tor_f": 20.1,
-      "first_seal": "092500",
+      "code": "600108",
+      "name": "亚盛集团",
+      "streak": 2,
+      "industry": "种植业",
+      "tor_f": 16.2,
+      "first_seal": "093623",
       "open_times": 1,
+      "seal_yi": 1.6
+    },
+    {
+      "code": "605580",
+      "name": "恒盛能源",
+      "streak": 2,
+      "industry": "电力",
+      "tor_f": 4.7,
+      "first_seal": "092501",
+      "open_times": 0,
+      "seal_yi": 1.0
+    },
+    {
+      "code": "002403",
+      "name": "爱仕达",
+      "streak": 2,
+      "industry": "小家电",
+      "tor_f": 8.8,
+      "first_seal": "093133",
+      "open_times": 0,
       "seal_yi": 0.9
     },
     {
-      "code": "605577",
-      "name": "龙版传媒",
-      "streak": 4,
-      "industry": "出版",
-      "tor_f": 54.1,
-      "first_seal": "093208",
-      "open_times": 2,
-      "seal_yi": 0.4
-    },
-    {
-      "code": "002059",
-      "name": "云南旅游",
+      "code": "605398",
+      "name": "新炬网络",
       "streak": 2,
-      "industry": "旅游及景",
-      "tor_f": 5.6,
-      "first_seal": "092500",
-      "open_times": 0,
-      "seal_yi": 1.9
-    },
-    {
-      "code": "002300",
-      "name": "太阳电缆",
-      "streak": 2,
-      "industry": "电网设备",
-      "tor_f": 15.3,
-      "first_seal": "093203",
-      "open_times": 0,
-      "seal_yi": 1.2
-    },
-    {
-      "code": "002297",
-      "name": "博云新材",
-      "streak": 2,
-      "industry": "航空装备",
-      "tor_f": 37.8,
-      "first_seal": "102554",
-      "open_times": 5,
-      "seal_yi": 1.1
-    },
-    {
-      "code": "603270",
-      "name": "金帝股份",
-      "streak": 2,
-      "industry": "通用设备",
-      "tor_f": 12.8,
-      "first_seal": "093351",
+      "industry": "IT服务Ⅱ",
+      "tor_f": 8.2,
+      "first_seal": "092501",
       "open_times": 0,
       "seal_yi": 0.8
     },
     {
-      "code": "600657",
-      "name": "信达地产",
+      "code": "603162",
+      "name": "海通发展",
       "streak": 2,
-      "industry": "房地产开",
-      "tor_f": 17.5,
-      "first_seal": "102756",
-      "open_times": 0,
-      "seal_yi": 0.7
+      "industry": "航运港口",
+      "tor_f": 19.8,
+      "first_seal": "093840",
+      "open_times": 9,
+      "seal_yi": 0.3
     },
     {
-      "code": "002708",
-      "name": "光洋股份",
+      "code": "600865",
+      "name": "百大集团",
       "streak": 2,
-      "industry": "汽车零部",
-      "tor_f": 26.1,
-      "first_seal": "095012",
-      "open_times": 20,
-      "seal_yi": 0.1
+      "industry": "一般零售",
+      "tor_f": 39.2,
+      "first_seal": "135254",
+      "open_times": 2,
+      "seal_yi": 0.3
     }
   ],
   "j1": {
     "threshold_yi": 23000,
-    "value_yi": 17587,
+    "value_yi": 20304,
     "green": false
   }
 }
