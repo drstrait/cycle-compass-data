@@ -1,95 +1,99 @@
 {
   "version": "1.1",
   "chain": "1550",
-  "trade_date": "20260904",
-  "generated_at": "2026-09-04T15:50:53+08:00",
-  "next_trade_date": "20260907",
-  "valid_until": "2026-09-07T16:10:00+08:00",
+  "trade_date": "20260907",
+  "generated_at": "2026-09-07T15:50:54+08:00",
+  "next_trade_date": "20260908",
+  "valid_until": "2026-09-08T16:10:00+08:00",
   "market": {
-    "volume_yi": 20304,
-    "volume_ma20_yi": 21282,
-    "volume_ratio": 0.95,
-    "breadth_up": 2249,
-    "breadth_down": 2773,
-    "breadth_pct": 43.2
+    "volume_yi": 19458,
+    "volume_ma20_yi": 20994,
+    "volume_ratio": 0.93,
+    "breadth_up": 3040,
+    "breadth_down": 1987,
+    "breadth_pct": 58.4
   },
   "ew": {
-    "value": 912.96,
-    "ma20": 910.58,
-    "ma60": 894.61,
-    "spread_pct": 0.04
+    "value": 922.07,
+    "ma20": 911.12,
+    "ma60": 894.56,
+    "spread_pct": -0.93
   },
   "regime": {
     "state": "上升(背离)",
-    "streak_days": 5,
+    "streak_days": 6,
     "pending_transition": null
   },
   "limits": {
-    "up_count": 39,
-    "down_count": 9,
-    "max_streak": 5,
+    "up_count": 93,
+    "down_count": 2,
+    "max_streak": 6,
     "ladder": [
       {
-        "height": 5,
+        "height": 6,
         "count": 1
       },
       {
+        "height": 3,
+        "count": 3
+      },
+      {
         "height": 2,
-        "count": 6
+        "count": 9
       },
       {
         "height": 1,
-        "count": 32
+        "count": 80
       }
     ],
-    "promotion_rate_pct": 16,
-    "fried_rate_pct": 55,
-    "yesterday_premium_pct": 1.7,
-    "auction_one_word_count": 8
+    "promotion_rate_pct": 33,
+    "fried_rate_pct": 17,
+    "yesterday_premium_pct": 4.0,
+    "auction_one_word_count": 9
   },
   "sectors": {
     "top": [
       {
-        "name": "畜禽饲料",
-        "pct": 8.5
+        "name": "印制电路板",
+        "pct": 7.6
       },
       {
-        "name": "生猪养殖",
-        "pct": 6.2
+        "name": "元件",
+        "pct": 6.7
       },
       {
-        "name": "教育运营及其他",
+        "name": "种子",
+        "pct": 6.3
+      },
+      {
+        "name": "其他种植业",
         "pct": 6.1
       },
       {
-        "name": "饲料",
-        "pct": 6.0
-      },
-      {
-        "name": "视频媒体",
-        "pct": 5.5
+        "name": "通信网络设备及器件",
+        "pct": 5.4
       }
     ],
     "bottom": [
       {
-        "name": "玻纤制造",
-        "pct": -4.8
-      },
-      {
-        "name": "半导体设备",
-        "pct": -4.1
-      },
-      {
-        "name": "半导体材料",
+        "name": "氨纶",
         "pct": -3.8
       },
       {
-        "name": "电子化学品Ⅲ",
-        "pct": -3.5
+        "name": "涂料",
+        "pct": -3.2
       },
       {
-        "name": "电子化学品Ⅱ",
-        "pct": -3.5
+        "name": "白银",
+        "pct": -3.2
+      },
+      {
+        "name": "辅料",
+        "pct": -3.0
+      },
+      {
+        "name": "贵金属",
+        "pct": -3.0
       }
     ]
   },
@@ -97,77 +101,107 @@
     {
       "code": "605577",
       "name": "龙版传媒",
-      "streak": 5,
+      "streak": 6,
       "industry": "出版",
-      "tor_f": 35.4,
-      "first_seal": "093109",
-      "open_times": 2,
-      "seal_yi": 0.8
+      "tor_f": 16.2,
+      "first_seal": "093047",
+      "open_times": 0,
+      "seal_yi": 1.1
     },
     {
       "code": "600108",
       "name": "亚盛集团",
-      "streak": 2,
+      "streak": 3,
       "industry": "种植业",
-      "tor_f": 16.2,
-      "first_seal": "093623",
-      "open_times": 1,
-      "seal_yi": 1.6
-    },
-    {
-      "code": "605580",
-      "name": "恒盛能源",
-      "streak": 2,
-      "industry": "电力",
-      "tor_f": 4.7,
-      "first_seal": "092501",
+      "tor_f": 1.5,
+      "first_seal": "092502",
       "open_times": 0,
-      "seal_yi": 1.0
-    },
-    {
-      "code": "002403",
-      "name": "爱仕达",
-      "streak": 2,
-      "industry": "小家电",
-      "tor_f": 8.8,
-      "first_seal": "093133",
-      "open_times": 0,
-      "seal_yi": 0.9
-    },
-    {
-      "code": "605398",
-      "name": "新炬网络",
-      "streak": 2,
-      "industry": "IT服务Ⅱ",
-      "tor_f": 8.2,
-      "first_seal": "092501",
-      "open_times": 0,
-      "seal_yi": 0.8
-    },
-    {
-      "code": "603162",
-      "name": "海通发展",
-      "streak": 2,
-      "industry": "航运港口",
-      "tor_f": 19.8,
-      "first_seal": "093840",
-      "open_times": 9,
-      "seal_yi": 0.3
+      "seal_yi": 4.5
     },
     {
       "code": "600865",
       "name": "百大集团",
-      "streak": 2,
+      "streak": 3,
       "industry": "一般零售",
-      "tor_f": 39.2,
-      "first_seal": "135254",
+      "tor_f": 12.0,
+      "first_seal": "093001",
+      "open_times": 0,
+      "seal_yi": 3.7
+    },
+    {
+      "code": "002403",
+      "name": "爱仕达",
+      "streak": 3,
+      "industry": "小家电",
+      "tor_f": 29.2,
+      "first_seal": "100754",
+      "open_times": 0,
+      "seal_yi": 0.9
+    },
+    {
+      "code": "001366",
+      "name": "播恩集团",
+      "streak": 2,
+      "industry": "饲料",
+      "tor_f": 10.0,
+      "first_seal": "093000",
+      "open_times": 0,
+      "seal_yi": 3.3
+    },
+    {
+      "code": "002702",
+      "name": "海欣食品",
+      "streak": 2,
+      "industry": "食品加工",
+      "tor_f": 2.7,
+      "first_seal": "092500",
+      "open_times": 0,
+      "seal_yi": 1.7
+    },
+    {
+      "code": "000735",
+      "name": "罗 牛 山",
+      "streak": 2,
+      "industry": "养殖业",
+      "tor_f": 5.4,
+      "first_seal": "093009",
+      "open_times": 0,
+      "seal_yi": 0.9
+    },
+    {
+      "code": "600354",
+      "name": "敦煌种业",
+      "streak": 2,
+      "industry": "种植业",
+      "tor_f": 16.1,
+      "first_seal": "093209",
       "open_times": 2,
-      "seal_yi": 0.3
+      "seal_yi": 0.9
+    },
+    {
+      "code": "000798",
+      "name": "中水渔业",
+      "streak": 2,
+      "industry": "渔业",
+      "tor_f": 13.8,
+      "first_seal": "093306",
+      "open_times": 0,
+      "seal_yi": 0.9
+    },
+    {
+      "code": "002564",
+      "name": "天沃科技",
+      "streak": 2,
+      "industry": "专用设备",
+      "tor_f": 5.6,
+      "first_seal": "093327",
+      "open_times": 0,
+      "seal_yi": 0.6
     }
   ],
   "j1": {
     "threshold_yi": 23000,
-    "value_yi": 20304,
+    "value_yi": 19458,
     "green": false
   }
 }
