@@ -1,207 +1,207 @@
 {
   "version": "1.1",
   "chain": "1550",
-  "trade_date": "20260908",
-  "generated_at": "2026-09-08T15:50:53+08:00",
-  "next_trade_date": "20260909",
-  "valid_until": "2026-09-09T16:10:00+08:00",
+  "trade_date": "20260909",
+  "generated_at": "2026-09-09T15:50:54+08:00",
+  "next_trade_date": "20260910",
+  "valid_until": "2026-09-10T16:10:00+08:00",
   "market": {
-    "volume_yi": 19601,
-    "volume_ma20_yi": 20813,
-    "volume_ratio": 0.94,
-    "breadth_up": 3257,
-    "breadth_down": 1859,
-    "breadth_pct": 62.5
+    "volume_yi": 18554,
+    "volume_ma20_yi": 20665,
+    "volume_ratio": 0.9,
+    "breadth_up": 1729,
+    "breadth_down": 3369,
+    "breadth_pct": 33.2
   },
   "ew": {
-    "value": 928.5,
-    "ma20": 912.17,
-    "ma60": 894.29,
-    "spread_pct": -0.5
+    "value": 924.74,
+    "ma20": 912.49,
+    "ma60": 893.86,
+    "spread_pct": 0.68
   },
   "regime": {
     "state": "上升(背离)",
-    "streak_days": 7,
+    "streak_days": 8,
     "pending_transition": null
   },
   "limits": {
-    "up_count": 73,
-    "down_count": 0,
-    "max_streak": 4,
+    "up_count": 48,
+    "down_count": 7,
+    "max_streak": 5,
     "ladder": [
       {
-        "height": 4,
-        "count": 3
+        "height": 5,
+        "count": 1
       },
       {
         "height": 3,
-        "count": 3
+        "count": 4
       },
       {
         "height": 2,
-        "count": 12
+        "count": 10
       },
       {
         "height": 1,
-        "count": 55
+        "count": 33
       }
     ],
-    "promotion_rate_pct": 19,
-    "fried_rate_pct": 34,
-    "yesterday_premium_pct": 3.1,
+    "promotion_rate_pct": 21,
+    "fried_rate_pct": 36,
+    "yesterday_premium_pct": 1.8,
     "auction_one_word_count": 11
   },
   "sectors": {
     "top": [
       {
-        "name": "粮食种植",
-        "pct": 7.8
+        "name": "教育运营及其他",
+        "pct": 6.0
       },
       {
-        "name": "房产租赁经纪",
-        "pct": 7.5
+        "name": "其他种植业",
+        "pct": 6.0
       },
       {
-        "name": "磷肥及磷化工",
-        "pct": 7.0
+        "name": "橡胶助剂",
+        "pct": 5.5
       },
       {
-        "name": "其他农产品加工",
-        "pct": 7.0
+        "name": "通信线缆及配套",
+        "pct": 5.0
       },
       {
-        "name": "学历教育",
-        "pct": 6.8
+        "name": "航海装备Ⅲ",
+        "pct": 4.7
       }
     ],
     "bottom": [
       {
         "name": "视频媒体",
-        "pct": -6.7
+        "pct": -9.9
       },
       {
-        "name": "涂料",
-        "pct": -2.5
+        "name": "房产租赁经纪",
+        "pct": -5.7
       },
       {
-        "name": "半导体设备",
-        "pct": -2.0
+        "name": "大众出版",
+        "pct": -4.9
       },
       {
-        "name": "模拟芯片设计",
-        "pct": -1.9
+        "name": "金融信息服务",
+        "pct": -4.5
       },
       {
-        "name": "集成电路制造",
-        "pct": -1.5
+        "name": "出版",
+        "pct": -4.3
       }
     ]
   },
   "mustread": [
     {
-      "code": "600108",
-      "name": "亚盛集团",
-      "streak": 4,
-      "industry": "种植业",
-      "tor_f": 1.2,
-      "first_seal": "092503",
-      "open_times": 0,
-      "seal_yi": 5.6
-    },
-    {
       "code": "600865",
       "name": "百大集团",
-      "streak": 4,
+      "streak": 5,
       "industry": "一般零售",
-      "tor_f": 2.9,
-      "first_seal": "092501",
-      "open_times": 0,
-      "seal_yi": 2.4
-    },
-    {
-      "code": "002403",
-      "name": "爱仕达",
-      "streak": 4,
-      "industry": "小家电",
-      "tor_f": 31.8,
-      "first_seal": "092500",
-      "open_times": 1,
-      "seal_yi": 0.8
-    },
-    {
-      "code": "600354",
-      "name": "敦煌种业",
-      "streak": 3,
-      "industry": "种植业",
-      "tor_f": 13.0,
-      "first_seal": "093103",
+      "tor_f": 48.2,
+      "first_seal": "093221",
       "open_times": 2,
-      "seal_yi": 1.2
+      "seal_yi": 0.6
     },
     {
-      "code": "601949",
-      "name": "中国出版",
+      "code": "002470",
+      "name": "金正大",
       "streak": 3,
-      "industry": "出版",
-      "tor_f": 12.5,
-      "first_seal": "093042",
-      "open_times": 0,
-      "seal_yi": 1.0
-    },
-    {
-      "code": "002702",
-      "name": "海欣食品",
-      "streak": 3,
-      "industry": "食品加工",
-      "tor_f": 25.4,
+      "industry": "农化制品",
+      "tor_f": 4.6,
       "first_seal": "092500",
-      "open_times": 2,
-      "seal_yi": 0.7
-    },
-    {
-      "code": "002579",
-      "name": "中京电子",
-      "streak": 2,
-      "industry": "元件",
-      "tor_f": 11.9,
-      "first_seal": "093036",
       "open_times": 0,
-      "seal_yi": 2.4
-    },
-    {
-      "code": "000978",
-      "name": "桂林旅游",
-      "streak": 2,
-      "industry": "旅游及景",
-      "tor_f": 10.8,
-      "first_seal": "093000",
-      "open_times": 0,
-      "seal_yi": 1.7
+      "seal_yi": 1.8
     },
     {
       "code": "000759",
       "name": "中百集团",
-      "streak": 2,
+      "streak": 3,
       "industry": "一般零售",
-      "tor_f": 14.2,
-      "first_seal": "093006",
+      "tor_f": 44.6,
+      "first_seal": "093330",
       "open_times": 1,
       "seal_yi": 1.7
     },
     {
-      "code": "603823",
-      "name": "百合花",
-      "streak": 2,
-      "industry": "化学制品",
-      "tor_f": 4.9,
-      "first_seal": "093055",
+      "code": "603042",
+      "name": "华脉科技",
+      "streak": 3,
+      "industry": "通信设备",
+      "tor_f": 2.8,
+      "first_seal": "092502",
       "open_times": 0,
-      "seal_yi": 1.7
+      "seal_yi": 1.5
+    },
+    {
+      "code": "000978",
+      "name": "桂林旅游",
+      "streak": 3,
+      "industry": "旅游及景",
+      "tor_f": 51.6,
+      "first_seal": "130624",
+      "open_times": 0,
+      "seal_yi": 0.4
+    },
+    {
+      "code": "000523",
+      "name": "红棉股份",
+      "streak": 2,
+      "industry": "综合Ⅱ",
+      "tor_f": 2.6,
+      "first_seal": "092500",
+      "open_times": 0,
+      "seal_yi": 3.5
+    },
+    {
+      "code": "002790",
+      "name": "瑞尔特",
+      "streak": 2,
+      "industry": "家居用品",
+      "tor_f": 15.6,
+      "first_seal": "092500",
+      "open_times": 0,
+      "seal_yi": 1.5
+    },
+    {
+      "code": "000930",
+      "name": "中粮科技",
+      "streak": 2,
+      "industry": "农产品加",
+      "tor_f": 10.8,
+      "first_seal": "093212",
+      "open_times": 0,
+      "seal_yi": 1.4
+    },
+    {
+      "code": "000980",
+      "name": "众泰汽车",
+      "streak": 2,
+      "industry": "汽车零部",
+      "tor_f": 5.0,
+      "first_seal": "093033",
+      "open_times": 1,
+      "seal_yi": 1.2
+    },
+    {
+      "code": "002295",
+      "name": "精艺股份",
+      "streak": 2,
+      "industry": "工业金属",
+      "tor_f": 4.2,
+      "first_seal": "092500",
+      "open_times": 0,
+      "seal_yi": 1.0
     }
   ],
   "j1": {
     "threshold_yi": 23000,
-    "value_yi": 19601,
+    "value_yi": 18554,
     "green": false
   }
 }
