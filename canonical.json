@@ -1,32 +1,32 @@
 {
   "version": "1.1",
   "chain": "1550",
-  "trade_date": "20260921",
-  "generated_at": "2026-09-21T15:50:52+08:00",
-  "next_trade_date": "20260922",
-  "valid_until": "2026-09-22T16:10:00+08:00",
+  "trade_date": "20260924",
+  "generated_at": "2026-09-24T22:29:39+08:00",
+  "next_trade_date": "20260928",
+  "valid_until": "2026-09-28T16:10:00+08:00",
   "market": {
-    "volume_yi": 20314,
-    "volume_ma20_yi": 19001,
-    "volume_ratio": 1.07,
-    "breadth_up": 4216,
-    "breadth_down": 914,
-    "breadth_pct": 80.9
+    "volume_yi": 16526,
+    "volume_ma20_yi": 18895,
+    "volume_ratio": 0.87,
+    "breadth_up": 1083,
+    "breadth_down": 4001,
+    "breadth_pct": 20.8
   },
   "ew": {
-    "value": 933.14,
-    "ma20": 912.89,
-    "ma60": 890.44,
-    "spread_pct": -0.93
+    "value": 919.6,
+    "ma20": 916.17,
+    "ma60": 890.72,
+    "spread_pct": 0.03
   },
   "regime": {
-    "state": "震荡(修复)",
-    "streak_days": 5,
-    "pending_transition": "上升(第1日)"
+    "state": "上升(观察)",
+    "streak_days": 1,
+    "pending_transition": null
   },
   "limits": {
-    "up_count": 103,
-    "down_count": 2,
+    "up_count": 52,
+    "down_count": 13,
     "max_streak": 5,
     "ladder": [
       {
@@ -35,177 +35,177 @@
       },
       {
         "height": 4,
-        "count": 2
+        "count": 3
       },
       {
         "height": 3,
-        "count": 5
+        "count": 1
       },
       {
         "height": 2,
-        "count": 13
+        "count": 8
       },
       {
         "height": 1,
-        "count": 82
+        "count": 39
       }
     ],
-    "promotion_rate_pct": 27,
-    "fried_rate_pct": 20,
-    "yesterday_premium_pct": 2.1,
-    "auction_one_word_count": 7
+    "promotion_rate_pct": 25,
+    "fried_rate_pct": 16,
+    "yesterday_premium_pct": 1.1,
+    "auction_one_word_count": 8
   },
   "sectors": {
     "top": [
       {
-        "name": "其他医疗服务",
-        "pct": 8.0
+        "name": "纺织机械",
+        "pct": 1.9
       },
       {
-        "name": "房产租赁经纪",
-        "pct": 7.3
+        "name": "家具行业",
+        "pct": 1.4
       },
       {
-        "name": "会展服务",
-        "pct": 7.2
+        "name": "纺织行业",
+        "pct": 0.4
       },
       {
-        "name": "宠物食品",
-        "pct": 6.6
+        "name": "公路桥梁",
+        "pct": 0.2
       },
       {
-        "name": "防水材料",
-        "pct": 6.1
+        "name": "服装鞋类",
+        "pct": 0.1
       }
     ],
     "bottom": [
       {
-        "name": "空调",
-        "pct": -2.1
+        "name": "有色金属",
+        "pct": -3.0
       },
       {
-        "name": "贵金属",
-        "pct": -1.5
+        "name": "电子器件",
+        "pct": -3.0
       },
       {
-        "name": "黄金",
-        "pct": -1.5
+        "name": "化纤行业",
+        "pct": -2.9
       },
       {
-        "name": "白银",
-        "pct": -1.5
+        "name": "次新股",
+        "pct": -2.4
       },
       {
-        "name": "钨",
-        "pct": -1.0
+        "name": "玻璃行业",
+        "pct": -2.3
       }
     ]
   },
   "mustread": [
     {
-      "code": "001216",
-      "name": "华瓷股份",
+      "code": "601811",
+      "name": "新华文轩",
       "streak": 5,
-      "industry": "家居用品",
-      "tor_f": 2.8,
-      "first_seal": "092500",
+      "industry": "出版",
+      "tor_f": 7.4,
+      "first_seal": "093006",
       "open_times": 0,
-      "seal_yi": 2.8
+      "seal_yi": 1.4
     },
     {
-      "code": "603230",
-      "name": "内蒙新华",
+      "code": "600825",
+      "name": "新华传媒",
       "streak": 4,
       "industry": "出版",
-      "tor_f": 37.6,
+      "tor_f": 1.2,
       "first_seal": "092502",
-      "open_times": 3,
-      "seal_yi": 0.9
-    },
-    {
-      "code": "002285",
-      "name": "世联行",
-      "streak": 4,
-      "industry": "房地产服",
-      "tor_f": 27.8,
-      "first_seal": "131706",
       "open_times": 0,
-      "seal_yi": 0.4
+      "seal_yi": 17.6
     },
     {
-      "code": "000504",
-      "name": "南华生物",
+      "code": "001234",
+      "name": "泰慕士",
+      "streak": 4,
+      "industry": "服装家纺",
+      "tor_f": 7.5,
+      "first_seal": "092500",
+      "open_times": 0,
+      "seal_yi": 3.6
+    },
+    {
+      "code": "002614",
+      "name": "奥佳华",
+      "streak": 4,
+      "industry": "其他家电",
+      "tor_f": 15.0,
+      "first_seal": "093057",
+      "open_times": 1,
+      "seal_yi": 1.0
+    },
+    {
+      "code": "002238",
+      "name": "天威视讯",
       "streak": 3,
-      "industry": "医疗服务",
+      "industry": "电视广播",
+      "tor_f": 31.5,
+      "first_seal": "093036",
+      "open_times": 3,
+      "seal_yi": 0.1
+    },
+    {
+      "code": "000850",
+      "name": "华茂股份",
+      "streak": 2,
+      "industry": "纺织制造",
       "tor_f": 2.7,
       "first_seal": "092500",
       "open_times": 0,
-      "seal_yi": 1.8
+      "seal_yi": 1.6
     },
     {
-      "code": "600127",
-      "name": "金健米业",
-      "streak": 3,
-      "industry": "农产品加",
-      "tor_f": 36.3,
-      "first_seal": "102445",
-      "open_times": 2,
-      "seal_yi": 1.3
-    },
-    {
-      "code": "002453",
-      "name": "华软科技",
-      "streak": 3,
-      "industry": "化学制品",
-      "tor_f": 8.7,
-      "first_seal": "093000",
-      "open_times": 0,
-      "seal_yi": 1.1
-    },
-    {
-      "code": "600630",
-      "name": "龙头股份",
-      "streak": 3,
-      "industry": "服装家纺",
-      "tor_f": 15.4,
-      "first_seal": "092501",
+      "code": "002119",
+      "name": "康强电子",
+      "streak": 2,
+      "industry": "半导体",
+      "tor_f": 38.4,
+      "first_seal": "093315",
       "open_times": 1,
-      "seal_yi": 0.7
+      "seal_yi": 1.4
     },
     {
-      "code": "600448",
-      "name": "华纺股份",
-      "streak": 3,
-      "industry": "纺织制造",
-      "tor_f": 48.3,
-      "first_seal": "093100",
-      "open_times": 3,
-      "seal_yi": 0.2
-    },
-    {
-      "code": "001376",
-      "name": "百通能源",
+      "code": "002819",
+      "name": "东方中科",
       "streak": 2,
-      "industry": "电力",
-      "tor_f": 7.7,
-      "first_seal": "093212",
-      "open_times": 0,
-      "seal_yi": 1.2
+      "industry": "通用设备",
+      "tor_f": 15.7,
+      "first_seal": "093006",
+      "open_times": 2,
+      "seal_yi": 1.0
     },
     {
-      "code": "601123",
-      "name": "马矿股份",
+      "code": "002909",
+      "name": "集泰股份",
       "streak": 2,
-      "industry": "冶钢原料",
-      "tor_f": 15.9,
-      "first_seal": "093003",
-      "open_times": 0,
+      "industry": "化学制品",
+      "tor_f": 33.1,
+      "first_seal": "093539",
+      "open_times": 2,
       "seal_yi": 0.9
+    },
+    {
+      "code": "603949",
+      "name": "雪龙集团",
+      "streak": 2,
+      "industry": "汽车零部",
+      "tor_f": 7.6,
+      "first_seal": "093001",
+      "open_times": 0,
+      "seal_yi": 0.8
     }
   ],
   "j1": {
     "threshold_yi": 23000,
-    "value_yi": 20314,
+    "value_yi": 16526,
     "green": false
   }
 }
