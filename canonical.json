@@ -1,32 +1,32 @@
 {
   "version": "1.1",
   "chain": "1550",
-  "trade_date": "20260924",
-  "generated_at": "2026-09-25T15:50:19+08:00",
-  "next_trade_date": "20260928",
-  "valid_until": "2026-09-28T16:10:00+08:00",
+  "trade_date": "20260928",
+  "generated_at": "2026-09-28T15:50:21+08:00",
+  "next_trade_date": "20260929",
+  "valid_until": "2026-09-29T16:10:00+08:00",
   "market": {
-    "volume_yi": 16526,
-    "volume_ma20_yi": 18895,
-    "volume_ratio": 0.87,
-    "breadth_up": 1083,
-    "breadth_down": 4001,
-    "breadth_pct": 20.8
+    "volume_yi": 17025,
+    "volume_ma20_yi": 18696,
+    "volume_ratio": 0.91,
+    "breadth_up": 861,
+    "breadth_down": 4245,
+    "breadth_pct": 16.5
   },
   "ew": {
-    "value": 919.6,
-    "ma20": 916.17,
-    "ma60": 890.72,
-    "spread_pct": 0.03
+    "value": 899.09,
+    "ma20": 915.3,
+    "ma60": 890.11,
+    "spread_pct": 0.56
   },
   "regime": {
-    "state": "上升(观察)",
-    "streak_days": 1,
-    "pending_transition": null
+    "state": "上升(背离)",
+    "streak_days": 2,
+    "pending_transition": "震荡(第1日)"
   },
   "limits": {
-    "up_count": 52,
-    "down_count": 13,
+    "up_count": 33,
+    "down_count": 56,
     "max_streak": 5,
     "ladder": [
       {
@@ -34,178 +34,144 @@
         "count": 1
       },
       {
-        "height": 4,
+        "height": 3,
         "count": 3
       },
       {
-        "height": 3,
-        "count": 1
-      },
-      {
         "height": 2,
-        "count": 8
+        "count": 3
       },
       {
         "height": 1,
-        "count": 39
+        "count": 26
       }
     ],
-    "promotion_rate_pct": 25,
-    "fried_rate_pct": 16,
-    "yesterday_premium_pct": 1.1,
-    "auction_one_word_count": 8
+    "promotion_rate_pct": 13,
+    "fried_rate_pct": 25,
+    "yesterday_premium_pct": 0.4,
+    "auction_one_word_count": 7
   },
   "sectors": {
     "top": [
       {
-        "name": "纺织机械",
-        "pct": 1.9
-      },
-      {
-        "name": "家具行业",
-        "pct": 1.4
-      },
-      {
-        "name": "纺织行业",
-        "pct": 0.4
-      },
-      {
-        "name": "公路桥梁",
-        "pct": 0.2
-      },
-      {
-        "name": "服装鞋类",
+        "name": "酿酒行业",
         "pct": 0.1
+      },
+      {
+        "name": "供水供气",
+        "pct": 0.0
+      },
+      {
+        "name": "生物制药",
+        "pct": -0.1
+      },
+      {
+        "name": "摩托车",
+        "pct": -0.3
+      },
+      {
+        "name": "飞机制造",
+        "pct": -0.5
       }
     ],
     "bottom": [
       {
-        "name": "有色金属",
-        "pct": -3.0
-      },
-      {
-        "name": "电子器件",
-        "pct": -3.0
-      },
-      {
-        "name": "化纤行业",
-        "pct": -2.9
-      },
-      {
         "name": "次新股",
-        "pct": -2.4
+        "pct": -5.2
       },
       {
         "name": "玻璃行业",
-        "pct": -2.3
+        "pct": -5.2
+      },
+      {
+        "name": "家具行业",
+        "pct": -4.8
+      },
+      {
+        "name": "仪器仪表",
+        "pct": -4.6
+      },
+      {
+        "name": "电子信息",
+        "pct": -4.4
       }
     ]
   },
   "mustread": [
     {
-      "code": "601811",
-      "name": "新华文轩",
-      "streak": 5,
-      "industry": "出版",
-      "tor_f": 7.4,
-      "first_seal": "093006",
-      "open_times": 0,
-      "seal_yi": 1.4
-    },
-    {
       "code": "600825",
       "name": "新华传媒",
-      "streak": 4,
+      "streak": 5,
       "industry": "出版",
-      "tor_f": 1.2,
-      "first_seal": "092502",
+      "tor_f": 1.0,
+      "first_seal": "092501",
       "open_times": 0,
-      "seal_yi": 17.6
+      "seal_yi": 23.9
     },
     {
-      "code": "001234",
-      "name": "泰慕士",
-      "streak": 4,
-      "industry": "服装家纺",
-      "tor_f": 7.5,
-      "first_seal": "092500",
-      "open_times": 0,
-      "seal_yi": 3.6
-    },
-    {
-      "code": "002614",
-      "name": "奥佳华",
-      "streak": 4,
-      "industry": "其他家电",
-      "tor_f": 15.0,
-      "first_seal": "093057",
-      "open_times": 1,
-      "seal_yi": 1.0
-    },
-    {
-      "code": "002238",
-      "name": "天威视讯",
+      "code": "600802",
+      "name": "福建水泥",
       "streak": 3,
-      "industry": "电视广播",
-      "tor_f": 31.5,
-      "first_seal": "093036",
-      "open_times": 3,
-      "seal_yi": 0.1
-    },
-    {
-      "code": "000850",
-      "name": "华茂股份",
-      "streak": 2,
-      "industry": "纺织制造",
-      "tor_f": 2.7,
-      "first_seal": "092500",
-      "open_times": 0,
-      "seal_yi": 1.6
-    },
-    {
-      "code": "002119",
-      "name": "康强电子",
-      "streak": 2,
-      "industry": "半导体",
-      "tor_f": 38.4,
-      "first_seal": "093315",
+      "industry": "水泥",
+      "tor_f": 26.7,
+      "first_seal": "093441",
       "open_times": 1,
-      "seal_yi": 1.4
-    },
-    {
-      "code": "002819",
-      "name": "东方中科",
-      "streak": 2,
-      "industry": "通用设备",
-      "tor_f": 15.7,
-      "first_seal": "093006",
-      "open_times": 2,
-      "seal_yi": 1.0
-    },
-    {
-      "code": "002909",
-      "name": "集泰股份",
-      "streak": 2,
-      "industry": "化学制品",
-      "tor_f": 33.1,
-      "first_seal": "093539",
-      "open_times": 2,
-      "seal_yi": 0.9
+      "seal_yi": 0.6
     },
     {
       "code": "603949",
       "name": "雪龙集团",
+      "streak": 3,
+      "industry": "汽车零部",
+      "tor_f": 27.8,
+      "first_seal": "093000",
+      "open_times": 1,
+      "seal_yi": 0.5
+    },
+    {
+      "code": "603396",
+      "name": "金辰股份",
+      "streak": 3,
+      "industry": "光伏设备",
+      "tor_f": 28.9,
+      "first_seal": "093002",
+      "open_times": 2,
+      "seal_yi": 0.4
+    },
+    {
+      "code": "000678",
+      "name": "襄阳轴承",
       "streak": 2,
       "industry": "汽车零部",
-      "tor_f": 7.6,
-      "first_seal": "093001",
-      "open_times": 0,
+      "tor_f": 13.8,
+      "first_seal": "093027",
+      "open_times": 1,
       "seal_yi": 0.8
+    },
+    {
+      "code": "603278",
+      "name": "大业股份",
+      "streak": 2,
+      "industry": "通用设备",
+      "tor_f": 38.0,
+      "first_seal": "093024",
+      "open_times": 1,
+      "seal_yi": 0.4
+    },
+    {
+      "code": "601218",
+      "name": "吉鑫科技",
+      "streak": 2,
+      "industry": "风电设备",
+      "tor_f": 35.1,
+      "first_seal": "142614",
+      "open_times": 1,
+      "seal_yi": 0.3
     }
   ],
   "j1": {
     "threshold_yi": 23000,
-    "value_yi": 16526,
+    "value_yi": 17025,
     "green": false
   }
 }
