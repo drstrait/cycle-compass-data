@@ -2,7 +2,7 @@
   "version": "1.1",
   "chain": "1550",
   "trade_date": "20260930",
-  "generated_at": "2026-10-01T15:50:15+08:00",
+  "generated_at": "2026-10-02T15:50:18+08:00",
   "next_trade_date": "20261008",
   "valid_until": "2026-10-08T16:10:00+08:00",
   "market": {
@@ -203,6 +203,66 @@
       "seal_yi": 0.5
     }
   ],
+  "golden_grid": {
+    "basis": "next_open",
+    "fired": true,
+    "g1": [],
+    "g1_near": [],
+    "g1_size_note": "行业成员市值中位越小 T+10 越强(汽车/轻工/机械/建筑装饰 +9~+16;有色/军工/电力设备 +4~+5);行业内大市值股 5 日先弹 10 日吐回,小市值 10 日接上",
+    "g2": {
+      "fire": false,
+      "dd_pct": -3.1,
+      "last3": [
+        -2.23,
+        0.85,
+        -0.13
+      ]
+    },
+    "g4": {
+      "fire": true,
+      "n": 0
+    },
+    "base_rates": {
+      "g1": "T+10 +8.1%/81% (n=234)",
+      "g2": "T+20 +5.1%/50% (n=12)",
+      "g4": "T+10 +2.7%/83% (n=23)"
+    }
+  },
+  "ice": {
+    "red": 2345,
+    "total": 5211,
+    "prev_red": 3257,
+    "ice": false,
+    "ice2": false,
+    "threshold": 1000,
+    "base_rate": "后5日等权 +0.5~+2.6%/52–80%;二冰 +2.25%/71%"
+  },
+  "expect_open": {
+    "n": 10,
+    "below": 7,
+    "below_pct": 70.0,
+    "sealed_ok": 3,
+    "sealed_below": 3,
+    "below_names": [
+      "新华传媒",
+      "深物业A",
+      "中新赛克",
+      "雪龙集团",
+      "津药药业",
+      "浙江新能"
+    ],
+    "base_rate": "符合预期 封板60%/T+1 +2.7%;不及预期 34%/−0.7%"
+  },
+  "weak_seal": {
+    "n_limit_up": 52,
+    "n_weak": 2,
+    "threshold": 0.05,
+    "low_second": [],
+    "n_low_second": 0,
+    "n_low_second_weak": 0,
+    "note": "可买性标记,不计质量",
+    "base_rate": "低位二板弱封 T+5 +7.0%/74%(硬封 +9.6%);全体二板弱封 −3.8%/38%"
+  },
   "j1": {
     "threshold_yi": 23000,
     "value_yi": 14286,
