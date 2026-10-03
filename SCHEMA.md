@@ -132,3 +132,7 @@
 ### v1.2 候选补(2026-10-02):`golden_grid.g1[*].mv_median_yi` 与 `golden_grid.g1_size_note`
 - `g1` / `g1_near` 每项增加 `mv_median_yi`:该行业成员流通市值中位(亿),可缺省。
 - `g1_size_note`:固定文案(格一市值切基率,观照 2026-10-02):行业成员市值中位越小 T+10 越强;行业内大市值股 5 日先弹 10 日吐回。只展示,不得据此分级或加颜色。
+
+### v1.2 候选补(2026-10-03):`ice` 增 `sh_pct` / `resonant` / `resonant_rule`
+- `sh_pct`:上证当日涨跌幅;`resonant`:`ice ∧ sh_pct ≤ −1.5` = 共振冰点(指数与情绪同杀);`resonant_rule` 原样显示。
+- 展示:`resonant=true` 在"★冰点"后加"·共振";`base_rate` 原样显示(含共振冰点基率)。只展示不分级,不得出现动作词。
