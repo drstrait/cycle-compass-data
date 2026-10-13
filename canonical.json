@@ -1,229 +1,213 @@
 {
   "version": "1.1",
   "chain": "1550",
-  "trade_date": "20261012",
-  "generated_at": "2026-10-12T15:51:03+08:00",
-  "next_trade_date": "20261013",
-  "valid_until": "2026-10-13T16:10:00+08:00",
+  "trade_date": "20261013",
+  "generated_at": "2026-10-13T15:50:51+08:00",
+  "next_trade_date": "20261014",
+  "valid_until": "2026-10-14T16:10:00+08:00",
   "market": {
-    "volume_yi": 15368,
-    "volume_ma20_yi": 17799,
-    "volume_ratio": 0.86,
-    "breadth_up": 1109,
-    "breadth_down": 4036,
-    "breadth_pct": 21.3
+    "volume_yi": 16757,
+    "volume_ma20_yi": 17664,
+    "volume_ratio": 0.95,
+    "breadth_up": 2791,
+    "breadth_down": 2267,
+    "breadth_pct": 53.5
   },
   "ew": {
-    "value": 884.87,
-    "ma20": 909.82,
-    "ma60": 889.91,
-    "spread_pct": 1.18
+    "value": 888.62,
+    "ma20": 908.14,
+    "ma60": 890.35,
+    "spread_pct": -0.32
   },
   "regime": {
     "state": "震荡(衰竭)",
-    "streak_days": 4,
+    "streak_days": 5,
     "pending_transition": null
   },
   "limits": {
-    "up_count": 46,
-    "down_count": 19,
-    "max_streak": 10,
+    "up_count": 67,
+    "down_count": 8,
+    "max_streak": 3,
     "ladder": [
       {
-        "height": 10,
-        "count": 1
-      },
-      {
-        "height": 6,
-        "count": 2
-      },
-      {
         "height": 3,
-        "count": 1
+        "count": 5
       },
       {
         "height": 2,
-        "count": 14
+        "count": 5
       },
       {
         "height": 1,
-        "count": 28
+        "count": 57
       }
     ],
-    "promotion_rate_pct": 26,
-    "fried_rate_pct": 35,
-    "yesterday_premium_pct": 2.8,
-    "auction_one_word_count": 13
+    "promotion_rate_pct": 22,
+    "fried_rate_pct": 22,
+    "yesterday_premium_pct": 0.8,
+    "auction_one_word_count": 10
   },
   "sectors": {
     "top": [
       {
-        "name": "传媒娱乐",
-        "pct": 1.9
+        "name": "其他数字媒体",
+        "pct": 11.9
       },
       {
-        "name": "公路桥梁",
-        "pct": 1.7
+        "name": "印制电路板",
+        "pct": 6.1
       },
       {
-        "name": "摩托车",
-        "pct": 1.1
+        "name": "纺织化学制品",
+        "pct": 5.4
       },
       {
-        "name": "金融行业",
-        "pct": 1.0
+        "name": "元件",
+        "pct": 4.8
       },
       {
-        "name": "酿酒行业",
-        "pct": 1.0
+        "name": "地面兵装Ⅲ",
+        "pct": 4.5
       }
     ],
     "bottom": [
       {
-        "name": "陶瓷行业",
-        "pct": -4.0
-      },
-      {
-        "name": "有色金属",
-        "pct": -3.9
-      },
-      {
-        "name": "化工行业",
-        "pct": -3.6
-      },
-      {
-        "name": "次新股",
+        "name": "锂电专用设备",
         "pct": -3.3
       },
       {
-        "name": "石油行业",
-        "pct": -3.2
+        "name": "电池化学品",
+        "pct": -3.1
+      },
+      {
+        "name": "保险Ⅲ",
+        "pct": -3.1
+      },
+      {
+        "name": "保险Ⅱ",
+        "pct": -3.1
+      },
+      {
+        "name": "逆变器",
+        "pct": -3.0
       }
     ]
   },
   "mustread": [
     {
-      "code": "600825",
-      "name": "新华传媒",
-      "streak": 10,
-      "industry": "出版",
-      "tor_f": 7.0,
-      "first_seal": "092502",
-      "open_times": 0,
-      "seal_yi": 10.2
-    },
-    {
-      "code": "002242",
-      "name": "九阳股份",
-      "streak": 6,
-      "industry": "小家电",
-      "tor_f": 49.5,
-      "first_seal": "092500",
-      "open_times": 5,
-      "seal_yi": 0.6
-    },
-    {
-      "code": "600241",
-      "name": "时代万恒",
-      "streak": 6,
-      "industry": "电池",
-      "tor_f": 62.3,
-      "first_seal": "093022",
-      "open_times": 3,
-      "seal_yi": 0.3
-    },
-    {
-      "code": "600812",
-      "name": "华北制药",
-      "streak": 3,
-      "industry": "化学制药",
-      "tor_f": 19.6,
-      "first_seal": "092501",
-      "open_times": 2,
-      "seal_yi": 1.4
-    },
-    {
-      "code": "605287",
-      "name": "德才股份",
-      "streak": 2,
-      "industry": "装修装饰",
-      "tor_f": 3.2,
-      "first_seal": "092501",
-      "open_times": 0,
-      "seal_yi": 2.4
-    },
-    {
-      "code": "605136",
-      "name": "丽人丽妆",
-      "streak": 2,
-      "industry": "互联网电",
-      "tor_f": 2.0,
-      "first_seal": "092501",
-      "open_times": 0,
-      "seal_yi": 1.8
-    },
-    {
-      "code": "605577",
-      "name": "龙版传媒",
-      "streak": 2,
-      "industry": "出版",
-      "tor_f": 15.5,
-      "first_seal": "093002",
-      "open_times": 0,
-      "seal_yi": 1.4
-    },
-    {
       "code": "002343",
       "name": "慈文传媒",
-      "streak": 2,
+      "streak": 3,
       "industry": "影视院线",
-      "tor_f": 8.2,
-      "first_seal": "093000",
+      "tor_f": 4.6,
+      "first_seal": "092500",
       "open_times": 0,
-      "seal_yi": 1.4
+      "seal_yi": 2.5
     },
     {
       "code": "603096",
       "name": "新经典",
-      "streak": 2,
+      "streak": 3,
       "industry": "出版",
-      "tor_f": 6.0,
-      "first_seal": "092501",
+      "tor_f": 6.9,
+      "first_seal": "092500",
       "open_times": 0,
+      "seal_yi": 2.2
+    },
+    {
+      "code": "605136",
+      "name": "丽人丽妆",
+      "streak": 3,
+      "industry": "互联网电",
+      "tor_f": 15.1,
+      "first_seal": "093046",
+      "open_times": 0,
+      "seal_yi": 1.0
+    },
+    {
+      "code": "002696",
+      "name": "百洋股份",
+      "streak": 3,
+      "industry": "饲料",
+      "tor_f": 19.6,
+      "first_seal": "093409",
+      "open_times": 0,
+      "seal_yi": 0.7
+    },
+    {
+      "code": "605577",
+      "name": "龙版传媒",
+      "streak": 3,
+      "industry": "出版",
+      "tor_f": 63.8,
+      "first_seal": "093022",
+      "open_times": 3,
+      "seal_yi": 0.5
+    },
+    {
+      "code": "001231",
+      "name": "农心科技",
+      "streak": 2,
+      "industry": "农化制品",
+      "tor_f": 29.3,
+      "first_seal": "093027",
+      "open_times": 0,
+      "seal_yi": 3.0
+    },
+    {
+      "code": "600693",
+      "name": "东百集团",
+      "streak": 2,
+      "industry": "一般零售",
+      "tor_f": 43.8,
+      "first_seal": "092501",
+      "open_times": 4,
       "seal_yi": 1.3
     },
     {
-      "code": "601929",
-      "name": "吉视传媒",
+      "code": "600831",
+      "name": "广电网络",
       "streak": 2,
       "industry": "电视广播",
-      "tor_f": 21.4,
-      "first_seal": "093412",
+      "tor_f": 15.3,
+      "first_seal": "093906",
+      "open_times": 0,
+      "seal_yi": 0.5
+    },
+    {
+      "code": "603968",
+      "name": "醋化股份",
+      "streak": 2,
+      "industry": "化学制品",
+      "tor_f": 27.2,
+      "first_seal": "093633",
       "open_times": 2,
-      "seal_yi": 1.0
+      "seal_yi": 0.2
+    },
+    {
+      "code": "600851",
+      "name": "海欣股份",
+      "streak": 2,
+      "industry": "化学制药",
+      "tor_f": 11.7,
+      "first_seal": "094913",
+      "open_times": 3,
+      "seal_yi": 0.2
     }
   ],
   "golden_grid": {
     "basis": "next_open",
     "fired": true,
-    "g1": [
-      {
-        "l1": "电子",
-        "today_pct": -2.76,
-        "p10_pct": -9.0,
-        "p60_pct": -18.1,
-        "mv_median_yi": 93.0
-      }
-    ],
+    "g1": [],
     "g1_near": [],
     "g1_size_note": "行业成员市值中位越小 T+10 越强(汽车/轻工/机械/建筑装饰 +9~+16;有色/军工/电力设备 +4~+5);行业内大市值股 5 日先弹 10 日吐回,小市值 10 日接上",
     "g2": {
       "fire": false,
-      "dd_pct": -5.2,
+      "dd_pct": -4.7,
       "last3": [
-        -1.05,
         0.5,
-        -1.61
+        -1.6,
+        0.46
       ]
     },
     "g4": {
@@ -237,40 +221,40 @@
     }
   },
   "ice": {
-    "red": 1109,
-    "total": 5210,
-    "prev_red": 2989,
+    "red": 2791,
+    "total": 5213,
+    "prev_red": 1109,
     "ice": false,
     "ice2": false,
     "threshold": 1000,
-    "sh_pct": -0.43,
+    "sh_pct": 0.1,
     "resonant": false,
     "resonant_rule": "ice ∧ 上证当日 ≤ −1.5%",
-    "social_n": 0,
+    "social_n": 3,
     "social_hot": false,
     "social_rule": "ice ∧ 微博热搜股市类词条 ≥3(国内口径)",
-    "social_asof": "2026-10-11",
+    "social_asof": "2026-10-13",
     "base_rate": "后5日等权 +0.5~+2.6%/52–80%;二冰 +2.25%/71%;共振冰点 +1.90%/63%、涨停数 +114%(n=70);仅情绪冰点 +0.51%/60%;冰点·出圈 T+20 +4.22%/68%(n=66)vs 冰点无出圈 +0.45%/53%(n=111)"
   },
   "expect_open": {
-    "n": 12,
-    "below": 9,
-    "below_pct": 75.0,
-    "sealed_ok": 2,
+    "n": 18,
+    "below": 14,
+    "below_pct": 77.8,
+    "sealed_ok": 3,
     "sealed_below": 2,
     "below_names": [
-      "安泰集团",
-      "新华传媒",
-      "雄韬股份",
       "时代万恒",
-      "丰元股份",
-      "紫竹高科"
+      "掌阅科技",
+      "格尔软件",
+      "华北制药",
+      "上海电影",
+      "龙版传媒"
     ],
     "base_rate": "符合预期 封板60%/T+1 +2.7%;不及预期 34%/−0.7%"
   },
   "weak_seal": {
-    "n_limit_up": 46,
-    "n_weak": 10,
+    "n_limit_up": 67,
+    "n_weak": 9,
     "threshold": 0.05,
     "low_second": [],
     "n_low_second": 0,
@@ -280,7 +264,7 @@
   },
   "j1": {
     "threshold_yi": 23000,
-    "value_yi": 15368,
+    "value_yi": 16757,
     "green": false
   }
 }
