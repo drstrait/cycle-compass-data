@@ -1,196 +1,218 @@
 {
   "version": "1.1",
   "chain": "1550",
-  "trade_date": "20261016",
-  "generated_at": "2026-10-16T15:50:56+08:00",
-  "next_trade_date": "20261019",
-  "valid_until": "2026-10-19T16:10:00+08:00",
+  "trade_date": "20261019",
+  "generated_at": "2026-10-19T15:50:52+08:00",
+  "next_trade_date": "20261020",
+  "valid_until": "2026-10-20T16:10:00+08:00",
   "market": {
-    "volume_yi": 15552,
-    "volume_ma20_yi": 17232,
-    "volume_ratio": 0.9,
-    "breadth_up": 3061,
-    "breadth_down": 2023,
-    "breadth_pct": 58.7
+    "volume_yi": 14362,
+    "volume_ma20_yi": 16964,
+    "volume_ratio": 0.85,
+    "breadth_up": 2201,
+    "breadth_down": 2861,
+    "breadth_pct": 42.2
   },
   "ew": {
-    "value": 851.28,
-    "ma20": 898.39,
-    "ma60": 889.43,
-    "spread_pct": -0.23
+    "value": 849.46,
+    "ma20": 896.11,
+    "ma60": 889.71,
+    "spread_pct": 0.6
   },
   "regime": {
     "state": "震荡(衰竭)",
-    "streak_days": 8,
+    "streak_days": 9,
     "pending_transition": null
   },
   "limits": {
-    "up_count": 61,
-    "down_count": 10,
-    "max_streak": 11,
+    "up_count": 46,
+    "down_count": 22,
+    "max_streak": 3,
     "ladder": [
       {
-        "height": 11,
-        "count": 1
-      },
-      {
-        "height": 4,
-        "count": 1
-      },
-      {
         "height": 3,
-        "count": 1
+        "count": 2
       },
       {
         "height": 2,
-        "count": 4
+        "count": 9
       },
       {
         "height": 1,
-        "count": 54
+        "count": 35
       }
     ],
-    "promotion_rate_pct": 19,
-    "fried_rate_pct": 45,
-    "yesterday_premium_pct": 1.6,
-    "auction_one_word_count": 8
+    "promotion_rate_pct": 18,
+    "fried_rate_pct": 31,
+    "yesterday_premium_pct": 1.7,
+    "auction_one_word_count": 10
   },
   "sectors": {
     "top": [
       {
-        "name": "燃料电池",
-        "pct": 6.6
+        "name": "陶瓷行业",
+        "pct": 3.0
       },
       {
-        "name": "航空装备Ⅲ",
-        "pct": 6.0
+        "name": "船舶制造",
+        "pct": 1.8
       },
       {
-        "name": "航空装备Ⅱ",
-        "pct": 6.0
+        "name": "汽车制造",
+        "pct": 1.4
       },
       {
-        "name": "地面兵装Ⅲ",
-        "pct": 6.0
+        "name": "发电设备",
+        "pct": 1.3
       },
       {
-        "name": "地面兵装Ⅱ",
-        "pct": 6.0
+        "name": "家电行业",
+        "pct": 1.0
       }
     ],
     "bottom": [
       {
-        "name": "文字媒体",
-        "pct": -4.6
+        "name": "酒店旅游",
+        "pct": -2.3
       },
       {
-        "name": "印制电路板",
-        "pct": -4.5
+        "name": "物资外贸",
+        "pct": -2.2
       },
       {
-        "name": "蓄电池及其他电池",
-        "pct": -4.2
+        "name": "农林牧渔",
+        "pct": -1.9
       },
       {
-        "name": "视频媒体",
-        "pct": -3.7
+        "name": "房地产",
+        "pct": -1.5
       },
       {
-        "name": "诊断服务",
-        "pct": -3.6
+        "name": "传媒娱乐",
+        "pct": -1.1
       }
     ]
   },
   "mustread": [
     {
-      "code": "600825",
-      "name": "新华传媒",
-      "streak": 11,
-      "industry": "出版",
-      "tor_f": null,
+      "code": "003029",
+      "name": "吉大正元",
+      "streak": 3,
+      "industry": "软件开发",
+      "tor_f": 5.8,
       "first_seal": "092500",
       "open_times": 0,
-      "seal_yi": 9.1
-    },
-    {
-      "code": "000530",
-      "name": "冰山冷热",
-      "streak": 4,
-      "industry": "通用设备",
-      "tor_f": 46.5,
-      "first_seal": "102051",
-      "open_times": 0,
-      "seal_yi": 0.9
-    },
-    {
-      "code": "601811",
-      "name": "新华文轩",
-      "streak": 3,
-      "industry": "出版",
-      "tor_f": 36.4,
-      "first_seal": "095630",
-      "open_times": 5,
-      "seal_yi": 0.2
-    },
-    {
-      "code": "603999",
-      "name": "读者传媒",
-      "streak": 2,
-      "industry": "出版",
-      "tor_f": 7.2,
-      "first_seal": "092501",
-      "open_times": 0,
-      "seal_yi": 1.1
+      "seal_yi": 2.0
     },
     {
       "code": "002889",
       "name": "东方嘉盛",
-      "streak": 2,
+      "streak": 3,
       "industry": "物流",
-      "tor_f": 4.9,
+      "tor_f": 46.1,
+      "first_seal": "103733",
+      "open_times": 1,
+      "seal_yi": 0.3
+    },
+    {
+      "code": "603197",
+      "name": "保隆科技",
+      "streak": 2,
+      "industry": "汽车零部",
+      "tor_f": 2.7,
+      "first_seal": "092501",
+      "open_times": 0,
+      "seal_yi": 3.3
+    },
+    {
+      "code": "002085",
+      "name": "万丰奥威",
+      "streak": 2,
+      "industry": "汽车零部",
+      "tor_f": 8.0,
+      "first_seal": "093124",
+      "open_times": 0,
+      "seal_yi": 2.0
+    },
+    {
+      "code": "600178",
+      "name": "东安动力",
+      "streak": 2,
+      "industry": "汽车零部",
+      "tor_f": 6.8,
+      "first_seal": "093002",
+      "open_times": 0,
+      "seal_yi": 1.3
+    },
+    {
+      "code": "002724",
+      "name": "海洋王",
+      "streak": 2,
+      "industry": "照明设备",
+      "tor_f": 2.9,
       "first_seal": "092500",
       "open_times": 0,
-      "seal_yi": 1.0
+      "seal_yi": 1.2
     },
     {
-      "code": "003029",
-      "name": "吉大正元",
+      "code": "600148",
+      "name": "长春一东",
       "streak": 2,
-      "industry": "软件开发",
-      "tor_f": 29.5,
-      "first_seal": "093009",
-      "open_times": 2,
+      "industry": "汽车零部",
+      "tor_f": 3.0,
+      "first_seal": "092501",
+      "open_times": 0,
+      "seal_yi": 0.9
+    },
+    {
+      "code": "603278",
+      "name": "大业股份",
+      "streak": 2,
+      "industry": "通用设备",
+      "tor_f": 28.3,
+      "first_seal": "133617",
+      "open_times": 0,
+      "seal_yi": 0.6
+    },
+    {
+      "code": "600860",
+      "name": "京城股份",
+      "streak": 2,
+      "industry": "通用设备",
+      "tor_f": 3.5,
+      "first_seal": "092501",
+      "open_times": 0,
+      "seal_yi": 0.5
+    },
+    {
+      "code": "603348",
+      "name": "文灿股份",
+      "streak": 2,
+      "industry": "汽车零部",
+      "tor_f": 5.7,
+      "first_seal": "093006",
+      "open_times": 0,
       "seal_yi": 0.4
-    },
-    {
-      "code": "600668",
-      "name": "尖峰集团",
-      "streak": 2,
-      "industry": "水泥",
-      "tor_f": 17.9,
-      "first_seal": "093126",
-      "open_times": 3,
-      "seal_yi": 0.2
     }
   ],
   "golden_grid": {
     "basis": "next_open",
-    "fired": true,
+    "fired": false,
     "g1": [],
     "g1_near": [],
     "g1_size_note": "行业成员市值中位越小 T+10 越强(汽车/轻工/机械/建筑装饰 +9~+16;有色/军工/电力设备 +4~+5);行业内大市值股 5 日先弹 10 日吐回,小市值 10 日接上",
     "g2": {
       "fire": false,
-      "dd_pct": -8.7,
+      "dd_pct": -8.8,
       "last3": [
-        -1.78,
         -2.84,
-        0.47
+        0.47,
+        -0.21
       ]
     },
     "g4": {
-      "fire": true,
-      "n": 5
+      "fire": false,
+      "n": 6
     },
     "base_rates": {
       "g1": "T+10 +8.1%/81% (n=234)",
@@ -199,39 +221,40 @@
     }
   },
   "ice": {
-    "red": 3061,
-    "total": 5217,
-    "prev_red": 399,
+    "red": 2201,
+    "total": 5216,
+    "prev_red": 3061,
     "ice": false,
     "ice2": false,
     "threshold": 1000,
-    "sh_pct": 0.24,
+    "sh_pct": 0.39,
     "resonant": false,
     "resonant_rule": "ice ∧ 上证当日 ≤ −1.5%",
-    "social_n": 0,
+    "social_n": 2,
     "social_hot": false,
     "social_rule": "ice ∧ 微博热搜股市类词条 ≥3(国内口径)",
-    "social_asof": "2026-10-15",
+    "social_asof": "2026-10-19",
     "base_rate": "后5日等权 +0.5~+2.6%/52–80%;二冰 +2.25%/71%;共振冰点 +1.90%/63%、涨停数 +114%(n=70);仅情绪冰点 +0.51%/60%;冰点·出圈 T+20 +4.22%/68%(n=66)vs 冰点无出圈 +0.45%/53%(n=111)"
   },
   "expect_open": {
-    "n": 6,
-    "below": 5,
-    "below_pct": 83.3,
+    "n": 7,
+    "below": 6,
+    "below_pct": 85.7,
     "sealed_ok": 1,
     "sealed_below": 1,
     "below_names": [
-      "富春染织",
-      "百洋股份",
-      "阳光乳业",
-      "冰山冷热",
-      "慈文传媒"
+      "新华文轩",
+      "东方嘉盛",
+      "新华传媒",
+      "读者传媒",
+      "尖峰集团",
+      "冰山冷热"
     ],
     "base_rate": "符合预期 封板60%/T+1 +2.7%;不及预期 34%/−0.7%"
   },
   "weak_seal": {
-    "n_limit_up": 59,
-    "n_weak": 8,
+    "n_limit_up": 46,
+    "n_weak": 6,
     "threshold": 0.05,
     "low_second": [],
     "n_low_second": 0,
@@ -241,7 +264,7 @@
   },
   "j1": {
     "threshold_yi": 23000,
-    "value_yi": 15552,
+    "value_yi": 14362,
     "green": false
   }
 }
