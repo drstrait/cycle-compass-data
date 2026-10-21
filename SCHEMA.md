@@ -62,7 +62,7 @@
 
 ## 字段口径注记(2026-09-02,exporter 落地时定案;不改字段不升版本)
 
-- 生产者:观照 `src/export_canonical.py`,15:50 主链尾 L4 自动推送(`chain=1550`);`chain=2130` 覆盖待夜间链产出对账后 metrics 时启用。
+- 生产者:观照 `src/export_canonical.py`,15:50 主链尾 L4 自动推送(`chain=1550`);`chain=2130` 已于 2026-10-22 启用:夜间链 `src/night.py` 21:30 将东财 spot 与 Tushare daily 逐行对账(量价以 Tushare 为准)后重算 metrics,覆盖同日 1550;对账审计报告落观照 `data/reconcile/<date>.json`,15:50 版 metrics 备份为 `<date>.1550.json`。
 - 全部数值从观照 `data/metrics/<date>.json` 复算,可审计,无估算项;推送前按法定词表校验,不合格不推送并 Discord 告警。
 - `limits.auction_one_word_count`:竞价一字家数 = Tushare `stk_auction` 中竞价价 ≥ 涨停价×0.995 的家数(按板块涨幅上限 10%/20%/30%);当日竞价数据缺失时为 0(触发规则 1「传感器待验证」)。8/28 手工引导版的 6 为估值,按本口径应为 13。
 - `mustread`:观照必翻清单中的连板条目,按连板数降序取前 10(与日报涨停梯队一致);`tor_f`=自由流通换手%,`seal_yi`=封单亿元,`first_seal`=首次封板时间。
@@ -113,7 +113,7 @@
 "expect_open": {"n": 13, "below": 9, "below_pct": 69.2, "sealed_ok": 2, "sealed_below": 2,
         "below_names": ["华茂股份","天威视讯"], "base_rate": "符合预期 封板60%/T+1 +2.7%;不及预期 34%/−0.7%"}   // 昨连板(≥2板)股今开盘幅<昨开盘幅
 ```
-- `ice`:前端可在"情绪"区标★冰点/★二冰;`red`/`total` 为剔北交所口径,与 `market.breadth_up` 口径不同(后者含北交所),不要互相校验。
+- `ice`:前端可在"情绪"区标★冰点/★二冰;`red`/`total` 为剔北交所口径,与 `market.breadth_up` 口径一致(2026-10-21 起东财 spot 含北交所行,两字段各自剔除)。唯一潜在分歧:ice 额外剔 9 开头(含沪 B),breadth_up 仅剔北交所(4/8/92 前缀);当前 spot 无沪 B 行,故 `ice.red == market.breadth_up` 成立,可互相校验;若未来出现 900 沪 B 行两者才可能分叉。
 - `expect_open`:只展示只数、占比与两组封板数;`below_names` 最多 6 只,仅列名不加任何倾向词。
 - 两字段缺省时不显示;不得出现动作词。
 
