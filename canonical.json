@@ -1,23 +1,23 @@
 {
   "version": "1.1",
-  "chain": "1550",
+  "chain": "2130",
   "trade_date": "20261022",
-  "generated_at": "2026-10-22T15:51:17+08:00",
+  "generated_at": "2026-10-22T21:33:03+08:00",
   "next_trade_date": "20261023",
   "valid_until": "2026-10-23T16:10:00+08:00",
   "market": {
     "volume_yi": 15253,
-    "volume_ma20_yi": 16629,
+    "volume_ma20_yi": 16630,
     "volume_ratio": 0.92,
     "breadth_up": 447,
     "breadth_down": 4738,
     "breadth_pct": 8.6
   },
   "ew": {
-    "value": 832.83,
-    "ma20": 889.1,
-    "ma60": 891.29,
-    "spread_pct": 1.29
+    "value": 833.73,
+    "ma20": 889.14,
+    "ma60": 891.3,
+    "spread_pct": 1.19
   },
   "regime": {
     "state": "震荡(衰竭)",
@@ -308,12 +308,12 @@
     "sealed_ok": 2,
     "sealed_below": 2,
     "below_names": [
+      "日海智能",
       "九阳股份",
-      "南威软件",
+      "安记食品",
       "移远通信",
       "泰尔股份",
-      "同为股份",
-      "安记食品"
+      "南威软件"
     ],
     "base_rate": "符合预期 封板60%/T+1 +2.7%;不及预期 34%/−0.7%"
   },
