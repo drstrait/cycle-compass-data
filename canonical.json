@@ -1,222 +1,222 @@
 {
   "version": "1.1",
-  "chain": "2130",
-  "trade_date": "20261023",
-  "generated_at": "2026-10-23T21:33:14+08:00",
-  "next_trade_date": "20261026",
-  "valid_until": "2026-10-26T16:10:00+08:00",
+  "chain": "1550",
+  "trade_date": "20261026",
+  "generated_at": "2026-10-26T15:51:02+08:00",
+  "next_trade_date": "20261027",
+  "valid_until": "2026-10-27T16:10:00+08:00",
   "market": {
-    "volume_yi": 19559,
-    "volume_ma20_yi": 16697,
-    "volume_ratio": 1.17,
-    "breadth_up": 4197,
-    "breadth_down": 886,
-    "breadth_pct": 80.4
+    "volume_yi": 16086,
+    "volume_ma20_yi": 16463,
+    "volume_ratio": 0.98,
+    "breadth_up": 2081,
+    "breadth_down": 2991,
+    "breadth_pct": 39.9
   },
   "ew": {
-    "value": 849.5,
-    "ma20": 886.51,
-    "ma60": 891.6,
-    "spread_pct": -1.0
+    "value": 844.19,
+    "ma20": 882.93,
+    "ma60": 892.17,
+    "spread_pct": 0.82
   },
   "regime": {
-    "state": "震荡(衰竭)",
-    "streak_days": 13,
-    "pending_transition": "下降(第2日)"
+    "state": "下降(标准熊)",
+    "streak_days": 1,
+    "pending_transition": null
   },
   "limits": {
-    "up_count": 82,
-    "down_count": 6,
-    "max_streak": 6,
+    "up_count": 55,
+    "down_count": 26,
+    "max_streak": 4,
     "ladder": [
       {
-        "height": 6,
-        "count": 2
-      },
-      {
-        "height": 3,
+        "height": 4,
         "count": 1
       },
       {
+        "height": 3,
+        "count": 6
+      },
+      {
         "height": 2,
-        "count": 9
+        "count": 8
       },
       {
         "height": 1,
-        "count": 70
+        "count": 40
       }
     ],
-    "promotion_rate_pct": 36,
-    "fried_rate_pct": 13,
-    "yesterday_premium_pct": 0.3,
-    "auction_one_word_count": 6
+    "promotion_rate_pct": 18,
+    "fried_rate_pct": 29,
+    "yesterday_premium_pct": 2.9,
+    "auction_one_word_count": 14
   },
   "sectors": {
     "top": [
       {
-        "name": "次新股",
-        "pct": 5.2
+        "name": "石油行业",
+        "pct": 1.8
       },
       {
-        "name": "电子信息",
-        "pct": 3.5
+        "name": "医疗器械",
+        "pct": 1.5
       },
       {
-        "name": "仪器仪表",
-        "pct": 3.4
+        "name": "物资外贸",
+        "pct": 1.4
       },
       {
-        "name": "电器行业",
-        "pct": 3.1
+        "name": "商业百货",
+        "pct": 1.4
       },
       {
-        "name": "机械行业",
-        "pct": 3.0
+        "name": "酿酒行业",
+        "pct": 1.3
       }
     ],
     "bottom": [
       {
-        "name": "电力行业",
-        "pct": -0.9
+        "name": "次新股",
+        "pct": -4.1
       },
       {
-        "name": "石油行业",
-        "pct": -0.6
+        "name": "电子器件",
+        "pct": -3.9
       },
       {
-        "name": "公路桥梁",
-        "pct": -0.3
+        "name": "化纤行业",
+        "pct": -3.1
       },
       {
-        "name": "综合行业",
-        "pct": -0.1
+        "name": "陶瓷行业",
+        "pct": -2.9
       },
       {
-        "name": "环保行业",
-        "pct": 0.1
+        "name": "有色金属",
+        "pct": -2.7
       }
     ]
   },
   "mustread": [
     {
-      "code": "603278",
-      "name": "大业股份",
-      "streak": 6,
-      "industry": "通用设备",
-      "tor_f": 67.3,
-      "first_seal": "130945",
-      "open_times": 0,
-      "seal_yi": 0.9
-    },
-    {
-      "code": "002724",
-      "name": "海洋王",
-      "streak": 6,
-      "industry": "照明设备",
-      "tor_f": 69.5,
-      "first_seal": "095351",
-      "open_times": 5,
-      "seal_yi": 0.0
-    },
-    {
       "code": "600838",
       "name": "上海九百",
-      "streak": 3,
+      "streak": 4,
       "industry": "一般零售",
-      "tor_f": 7.9,
-      "first_seal": "092500",
-      "open_times": 0,
-      "seal_yi": 1.1
-    },
-    {
-      "code": "003021",
-      "name": "兆威机电",
-      "streak": 2,
-      "industry": "电机Ⅱ",
-      "tor_f": 30.5,
-      "first_seal": "094312",
-      "open_times": 5,
-      "seal_yi": 1.3
-    },
-    {
-      "code": "603028",
-      "name": "赛福天",
-      "streak": 2,
-      "industry": "通用设备",
-      "tor_f": 2.5,
-      "first_seal": "092502",
-      "open_times": 0,
-      "seal_yi": 1.1
-    },
-    {
-      "code": "603933",
-      "name": "睿能科技",
-      "streak": 2,
-      "industry": "其他电子",
-      "tor_f": 5.4,
-      "first_seal": "092502",
-      "open_times": 0,
-      "seal_yi": 1.0
+      "tor_f": 12.9,
+      "first_seal": "092501",
+      "open_times": 1,
+      "seal_yi": 1.4
     },
     {
       "code": "603528",
       "name": "多伦科技",
-      "streak": 2,
+      "streak": 3,
       "industry": "软件开发",
-      "tor_f": 27.0,
-      "first_seal": "131925",
+      "tor_f": 4.4,
+      "first_seal": "092502",
       "open_times": 0,
-      "seal_yi": 0.8
+      "seal_yi": 3.6
     },
     {
-      "code": "301502",
-      "name": "华阳智能",
-      "streak": 2,
-      "industry": "电机Ⅱ",
-      "tor_f": 21.2,
-      "first_seal": "093348",
+      "code": "603028",
+      "name": "赛福天",
+      "streak": 3,
+      "industry": "通用设备",
+      "tor_f": 3.1,
+      "first_seal": "092502",
+      "open_times": 0,
+      "seal_yi": 2.9
+    },
+    {
+      "code": "000678",
+      "name": "襄阳轴承",
+      "streak": 3,
+      "industry": "汽车零部",
+      "tor_f": 35.1,
+      "first_seal": "093118",
+      "open_times": 5,
+      "seal_yi": 1.1
+    },
+    {
+      "code": "002535",
+      "name": "林州重机",
+      "streak": 3,
+      "industry": "专用设备",
+      "tor_f": 38.2,
+      "first_seal": "093100",
       "open_times": 1,
-      "seal_yi": 0.7
-    },
-    {
-      "code": "603280",
-      "name": "南方路机",
-      "streak": 2,
-      "industry": "工程机械",
-      "tor_f": 8.7,
-      "first_seal": "093000",
-      "open_times": 0,
-      "seal_yi": 0.6
+      "seal_yi": 0.4
     },
     {
       "code": "603089",
       "name": "正裕工业",
+      "streak": 3,
+      "industry": "汽车零部",
+      "tor_f": 21.8,
+      "first_seal": "092502",
+      "open_times": 0,
+      "seal_yi": 0.3
+    },
+    {
+      "code": "301502",
+      "name": "华阳智能",
+      "streak": 3,
+      "industry": "电机Ⅱ",
+      "tor_f": 44.3,
+      "first_seal": "092500",
+      "open_times": 5,
+      "seal_yi": 0.0
+    },
+    {
+      "code": "603337",
+      "name": "杰克科技",
+      "streak": 2,
+      "industry": "专用设备",
+      "tor_f": 4.0,
+      "first_seal": "093000",
+      "open_times": 0,
+      "seal_yi": 2.4
+    },
+    {
+      "code": "000559",
+      "name": "万向钱潮",
       "streak": 2,
       "industry": "汽车零部",
-      "tor_f": 14.3,
-      "first_seal": "093247",
-      "open_times": 1,
-      "seal_yi": 0.5
+      "tor_f": 16.4,
+      "first_seal": "093200",
+      "open_times": 2,
+      "seal_yi": 1.4
+    },
+    {
+      "code": "000810",
+      "name": "创维数字",
+      "streak": 2,
+      "industry": "黑色家电",
+      "tor_f": 14.5,
+      "first_seal": "093309",
+      "open_times": 3,
+      "seal_yi": 1.3
     }
   ],
   "golden_grid": {
     "basis": "next_open",
-    "fired": false,
+    "fired": true,
     "g1": [],
     "g1_near": [],
     "g1_size_note": "行业成员市值中位越小 T+10 越强(汽车/轻工/机械/建筑装饰 +9~+16;有色/军工/电力设备 +4~+5);行业内大市值股 5 日先弹 10 日吐回,小市值 10 日接上",
     "g2": {
       "fire": false,
-      "dd_pct": -8.9,
+      "dd_pct": -9.5,
       "last3": [
-        -0.17,
         -2.74,
-        1.86
+        1.85,
+        -0.63
       ]
     },
     "g4": {
-      "fire": false,
-      "n": 8
+      "fire": true,
+      "n": 0
     },
     "base_rates": {
       "g1": "T+10 +8.1%/81% (n=234)",
@@ -225,40 +225,40 @@
     }
   },
   "ice": {
-    "red": 4197,
-    "total": 5218,
-    "prev_red": 447,
+    "red": 2081,
+    "total": 5219,
+    "prev_red": 4197,
     "ice": false,
     "ice2": false,
     "threshold": 1000,
-    "sh_pct": 0.89,
+    "sh_pct": 0.19,
     "resonant": false,
     "resonant_rule": "ice ∧ 上证当日 ≤ −1.5%",
-    "social_n": 3,
+    "social_n": 0,
     "social_hot": false,
     "social_rule": "ice ∧ 微博热搜股市类词条 ≥3(国内口径)",
-    "social_asof": "2026-10-23",
+    "social_asof": "2026-10-26",
     "base_rate": "后5日等权 +0.5~+2.6%/52–80%;二冰 +2.25%/71%;共振冰点 +1.90%/63%、涨停数 +114%(n=70);仅情绪冰点 +0.51%/60%;冰点·出圈 T+20 +4.22%/68%(n=66)vs 冰点无出圈 +0.45%/53%(n=111)"
   },
   "expect_open": {
-    "n": 9,
-    "below": 8,
-    "below_pct": 88.9,
-    "sealed_ok": 1,
-    "sealed_below": 2,
+    "n": 12,
+    "below": 6,
+    "below_pct": 50.0,
+    "sealed_ok": 4,
+    "sealed_below": 3,
     "below_names": [
-      "海量数据",
+      "上海九百",
       "海洋王",
-      "出版传媒",
-      "天洋新材",
-      "三峡新材",
-      "哈空调"
+      "林州重机",
+      "兆威机电",
+      "赛福天",
+      "南方路机"
     ],
     "base_rate": "符合预期 封板60%/T+1 +2.7%;不及预期 34%/−0.7%"
   },
   "weak_seal": {
-    "n_limit_up": 80,
-    "n_weak": 16,
+    "n_limit_up": 55,
+    "n_weak": 9,
     "threshold": 0.05,
     "low_second": [],
     "n_low_second": 0,
@@ -268,7 +268,7 @@
   },
   "j1": {
     "threshold_yi": 23000,
-    "value_yi": 19559,
+    "value_yi": 16086,
     "green": false
   }
 }
