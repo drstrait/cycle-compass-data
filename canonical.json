@@ -1,20 +1,20 @@
 {
   "version": "1.1",
-  "chain": "1550",
+  "chain": "2130",
   "trade_date": "20261030",
-  "generated_at": "2026-10-30T15:50:36+08:00",
+  "generated_at": "2026-10-30T21:33:37+08:00",
   "next_trade_date": "20261102",
   "valid_until": "2026-11-02T16:10:00+08:00",
   "market": {
     "volume_yi": 16739,
     "volume_ma20_yi": 15830,
     "volume_ratio": 1.06,
-    "breadth_up": 853,
+    "breadth_up": 854,
     "breadth_down": 4289,
     "breadth_pct": 16.4
   },
   "ew": {
-    "value": 789.18,
+    "value": 789.15,
     "ma20": 860.0,
     "ma60": 891.1,
     "spread_pct": 1.59
@@ -286,7 +286,7 @@
     }
   },
   "ice": {
-    "red": 853,
+    "red": 854,
     "total": 5216,
     "prev_red": 756,
     "ice": true,
@@ -295,8 +295,8 @@
     "sh_pct": -1.44,
     "resonant": false,
     "resonant_rule": "ice ∧ 上证当日 ≤ −1.5%",
-    "social_n": 0,
-    "social_hot": false,
+    "social_n": 4,
+    "social_hot": true,
     "social_rule": "ice ∧ 微博热搜股市类词条 ≥3(国内口径)",
     "social_asof": "2026-10-30",
     "n_limit_down": 82,
@@ -311,11 +311,11 @@
     "sealed_ok": 1,
     "sealed_below": 2,
     "below_names": [
-      "光洋股份",
+      "文投控股",
+      "实丰文化",
       "东贝集团",
-      "联明股份",
+      "光洋股份",
       "澳洋健康",
-      "青岛食品",
       "宇晶股份"
     ],
     "base_rate": "符合预期 封板60%/T+1 +2.7%;不及预期 34%/−0.7%"
