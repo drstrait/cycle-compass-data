@@ -1,23 +1,23 @@
 {
   "version": "1.1",
-  "chain": "1550",
+  "chain": "2130",
   "trade_date": "20261103",
-  "generated_at": "2026-11-03T15:51:02+08:00",
+  "generated_at": "2026-11-03T21:37:48+08:00",
   "next_trade_date": "20261104",
   "valid_until": "2026-11-04T16:10:00+08:00",
   "market": {
     "volume_yi": 17003,
-    "volume_ma20_yi": 16019,
+    "volume_ma20_yi": 16021,
     "volume_ratio": 1.06,
     "breadth_up": 2022,
     "breadth_down": 3045,
     "breadth_pct": 38.8
   },
   "ew": {
-    "value": 799.48,
-    "ma20": 850.15,
+    "value": 799.38,
+    "ma20": 850.14,
     "ma60": 889.57,
-    "spread_pct": 0.25
+    "spread_pct": 0.26
   },
   "regime": {
     "state": "下降(标准熊)",
@@ -258,12 +258,12 @@
     "sealed_ok": 2,
     "sealed_below": 1,
     "below_names": [
-      "青岛食品",
-      "沈阳机床",
-      "泉阳泉",
+      "阳光照明",
       "红太阳",
+      "泉阳泉",
       "地素时尚",
-      "阳光照明"
+      "桂林三金",
+      "沈阳机床"
     ],
     "base_rate": "符合预期 封板60%/T+1 +2.7%;不及预期 34%/−0.7%"
   },
