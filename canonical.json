@@ -1,230 +1,218 @@
 {
   "version": "1.1",
-  "chain": "2130",
-  "trade_date": "20261103",
-  "generated_at": "2026-11-03T21:37:48+08:00",
-  "next_trade_date": "20261104",
-  "valid_until": "2026-11-04T16:10:00+08:00",
+  "chain": "1550",
+  "trade_date": "20261104",
+  "generated_at": "2026-11-04T15:50:58+08:00",
+  "next_trade_date": "20261105",
+  "valid_until": "2026-11-05T16:10:00+08:00",
   "market": {
-    "volume_yi": 17003,
-    "volume_ma20_yi": 16021,
-    "volume_ratio": 1.06,
-    "breadth_up": 2022,
-    "breadth_down": 3045,
-    "breadth_pct": 38.8
+    "volume_yi": 20368,
+    "volume_ma20_yi": 16325,
+    "volume_ratio": 1.25,
+    "breadth_up": 4331,
+    "breadth_down": 762,
+    "breadth_pct": 83.0
   },
   "ew": {
-    "value": 799.38,
-    "ma20": 850.14,
-    "ma60": 889.57,
-    "spread_pct": 0.26
+    "value": 822.0,
+    "ma20": 846.03,
+    "ma60": 888.76,
+    "spread_pct": -0.67
   },
   "regime": {
-    "state": "下降(标准熊)",
-    "streak_days": 7,
+    "state": "下降(观察)",
+    "streak_days": 8,
     "pending_transition": null
   },
   "limits": {
-    "up_count": 48,
-    "down_count": 17,
-    "max_streak": 4,
+    "up_count": 118,
+    "down_count": 10,
+    "max_streak": 3,
     "ladder": [
       {
-        "height": 4,
-        "count": 2
-      },
-      {
         "height": 3,
-        "count": 1
+        "count": 6
       },
       {
         "height": 2,
-        "count": 12
+        "count": 6
       },
       {
         "height": 1,
-        "count": 33
+        "count": 106
       }
     ],
-    "promotion_rate_pct": 12,
-    "fried_rate_pct": 41,
-    "yesterday_premium_pct": 2.2,
-    "auction_one_word_count": 15
+    "promotion_rate_pct": 25,
+    "fried_rate_pct": 22,
+    "yesterday_premium_pct": 1.8,
+    "auction_one_word_count": 6
   },
   "sectors": {
     "top": [
       {
-        "name": "酿酒行业",
-        "pct": 2.4
+        "name": "次新股",
+        "pct": 9.4
       },
       {
-        "name": "船舶制造",
-        "pct": 2.2
+        "name": "电子器件",
+        "pct": 7.4
       },
       {
-        "name": "酒店旅游",
-        "pct": 1.6
+        "name": "陶瓷行业",
+        "pct": 6.9
       },
       {
-        "name": "农林牧渔",
-        "pct": 1.6
+        "name": "玻璃行业",
+        "pct": 5.5
       },
       {
-        "name": "农药化肥",
-        "pct": 1.3
+        "name": "有色金属",
+        "pct": 5.4
       }
     ],
     "bottom": [
       {
-        "name": "次新股",
-        "pct": -5.9
+        "name": "酿酒行业",
+        "pct": -2.1
       },
       {
-        "name": "电子器件",
-        "pct": -3.6
+        "name": "金融行业",
+        "pct": -0.3
       },
       {
-        "name": "机械行业",
-        "pct": -3.5
+        "name": "食品行业",
+        "pct": -0.1
       },
       {
-        "name": "玻璃行业",
-        "pct": -2.8
+        "name": "农林牧渔",
+        "pct": -0.0
       },
       {
-        "name": "电子信息",
-        "pct": -2.3
+        "name": "公路桥梁",
+        "pct": -0.0
       }
     ]
   },
   "mustread": [
     {
-      "code": "002086",
-      "name": "东方海洋",
-      "streak": 4,
-      "industry": "农产品加",
-      "tor_f": 14.6,
-      "first_seal": "092500",
-      "open_times": 3,
-      "seal_yi": 2.2
-    },
-    {
-      "code": "600261",
-      "name": "阳光照明",
-      "streak": 4,
-      "industry": "照明设备",
-      "tor_f": 47.8,
-      "first_seal": "092502",
-      "open_times": 5,
-      "seal_yi": 2.0
-    },
-    {
-      "code": "000995",
-      "name": "皇台酒业",
-      "streak": 3,
-      "industry": "白酒Ⅱ",
-      "tor_f": 3.0,
-      "first_seal": "092500",
-      "open_times": 0,
-      "seal_yi": 1.4
-    },
-    {
       "code": "002827",
       "name": "高争民爆",
-      "streak": 2,
+      "streak": 3,
       "industry": "化学制品",
-      "tor_f": 0.4,
+      "tor_f": 0.5,
       "first_seal": "092500",
       "open_times": 0,
-      "seal_yi": 5.5
-    },
-    {
-      "code": "600892",
-      "name": "大晟文化",
-      "streak": 2,
-      "industry": "游戏Ⅱ",
-      "tor_f": 1.9,
-      "first_seal": "092500",
-      "open_times": 0,
-      "seal_yi": 2.5
+      "seal_yi": 4.2
     },
     {
       "code": "601599",
       "name": "浙文影业",
-      "streak": 2,
+      "streak": 3,
       "industry": "纺织制造",
-      "tor_f": 2.8,
-      "first_seal": "092500",
+      "tor_f": 12.6,
+      "first_seal": "093020",
       "open_times": 0,
-      "seal_yi": 1.6
+      "seal_yi": 1.9
+    },
+    {
+      "code": "600892",
+      "name": "大晟文化",
+      "streak": 3,
+      "industry": "游戏Ⅱ",
+      "tor_f": 3.5,
+      "first_seal": "092502",
+      "open_times": 0,
+      "seal_yi": 1.4
+    },
+    {
+      "code": "002578",
+      "name": "闽发铝业",
+      "streak": 3,
+      "industry": "工业金属",
+      "tor_f": 21.3,
+      "first_seal": "130351",
+      "open_times": 0,
+      "seal_yi": 0.5
     },
     {
       "code": "605577",
       "name": "龙版传媒",
-      "streak": 2,
+      "streak": 3,
       "industry": "出版",
-      "tor_f": 4.1,
-      "first_seal": "092502",
-      "open_times": 0,
-      "seal_yi": 1.6
-    },
-    {
-      "code": "002292",
-      "name": "奥飞娱乐",
-      "streak": 2,
-      "industry": "文娱用品",
-      "tor_f": 6.7,
-      "first_seal": "093009",
-      "open_times": 1,
-      "seal_yi": 1.2
-    },
-    {
-      "code": "002029",
-      "name": "七 匹 狼",
-      "streak": 2,
-      "industry": "服装家纺",
-      "tor_f": 8.9,
-      "first_seal": "093224",
-      "open_times": 0,
-      "seal_yi": 1.1
+      "tor_f": 50.2,
+      "first_seal": "093105",
+      "open_times": 4,
+      "seal_yi": 0.2
     },
     {
       "code": "002058",
       "name": "紫竹高科",
-      "streak": 2,
+      "streak": 3,
       "industry": "电池",
-      "tor_f": 16.4,
-      "first_seal": "094848",
+      "tor_f": 39.1,
+      "first_seal": "093706",
+      "open_times": 2,
+      "seal_yi": 0.2
+    },
+    {
+      "code": "603381",
+      "name": "永臻股份",
+      "streak": 2,
+      "industry": "光伏设备",
+      "tor_f": 17.9,
+      "first_seal": "100032",
       "open_times": 0,
       "seal_yi": 0.7
+    },
+    {
+      "code": "002652",
+      "name": "扬子新材",
+      "streak": 2,
+      "industry": "装修建材",
+      "tor_f": 24.2,
+      "first_seal": "134500",
+      "open_times": 0,
+      "seal_yi": 0.6
+    },
+    {
+      "code": "000679",
+      "name": "大连友谊",
+      "streak": 2,
+      "industry": "一般零售",
+      "tor_f": 3.6,
+      "first_seal": "092500",
+      "open_times": 0,
+      "seal_yi": 0.5
+    },
+    {
+      "code": "601123",
+      "name": "马矿股份",
+      "streak": 2,
+      "industry": "冶钢原料",
+      "tor_f": 32.0,
+      "first_seal": "092502",
+      "open_times": 3,
+      "seal_yi": 0.4
     }
   ],
   "golden_grid": {
     "basis": "next_open",
     "fired": false,
     "g1": [],
-    "g1_near": [
-      {
-        "l1": "电子",
-        "today_pct": -3.89,
-        "p10_pct": -9.0,
-        "p60_pct": -6.7,
-        "mv_median_yi": 76.0
-      }
-    ],
+    "g1_near": [],
     "g1_size_note": "行业成员市值中位越小 T+10 越强(汽车/轻工/机械/建筑装饰 +9~+16;有色/军工/电力设备 +4~+5);行业内大市值股 5 日先弹 10 日吐回,小市值 10 日接上",
     "g2": {
       "fire": false,
-      "dd_pct": -14.2,
+      "dd_pct": -11.7,
       "last3": [
-        -3.03,
         2.44,
-        -1.07
+        -0.99,
+        2.83
       ]
     },
     "g4": {
       "fire": false,
-      "n": 11
+      "n": 10
     },
     "base_rates": {
       "g1": "T+10 +8.1%/81% (n=234)",
@@ -233,53 +221,60 @@
     }
   },
   "ice": {
-    "red": 2022,
-    "total": 5217,
-    "prev_red": 4381,
+    "red": 4331,
+    "total": 5216,
+    "prev_red": 2022,
     "ice": false,
     "ice2": false,
     "threshold": 1000,
-    "sh_pct": -0.82,
+    "sh_pct": 2.16,
     "resonant": false,
     "resonant_rule": "ice ∧ 上证当日 ≤ −1.5%",
-    "social_n": 4,
+    "social_n": 0,
     "social_hot": false,
     "social_rule": "ice ∧ 微博热搜股市类词条 ≥3(国内口径)",
-    "social_asof": "2026-11-03",
-    "n_limit_down": 17,
+    "social_asof": "2026-11-04",
+    "n_limit_down": 10,
     "limit_down_pour": false,
     "pour_rule": "当日跌停 ≥60 只",
     "base_rate": "后5日等权 +0.5~+2.6%/52–80%;二冰 +2.25%/71%;共振冰点 +1.90%/63%、涨停数 +114%(n=70);仅情绪冰点 +0.51%/60%;冰点·出圈 T+20 +4.22%/68%(n=66)vs 冰点无出圈 +0.45%/53%(n=111);跌停潮(跌停≥60)后5日 +2.9%/71%、后10日 +4.53%(n=45)"
   },
   "expect_open": {
-    "n": 11,
-    "below": 7,
-    "below_pct": 63.6,
-    "sealed_ok": 2,
-    "sealed_below": 1,
+    "n": 15,
+    "below": 13,
+    "below_pct": 86.7,
+    "sealed_ok": 1,
+    "sealed_below": 5,
     "below_names": [
-      "阳光照明",
-      "红太阳",
-      "泉阳泉",
-      "地素时尚",
-      "桂林三金",
-      "沈阳机床"
+      "皇台酒业",
+      "奥飞娱乐",
+      "文投控股",
+      "电魂网络",
+      "三峡新材",
+      "龙版传媒"
     ],
     "base_rate": "符合预期 封板60%/T+1 +2.7%;不及预期 34%/−0.7%"
   },
   "weak_seal": {
-    "n_limit_up": 48,
-    "n_weak": 4,
+    "n_limit_up": 116,
+    "n_weak": 56,
     "threshold": 0.05,
-    "low_second": [],
-    "n_low_second": 0,
+    "low_second": [
+      {
+        "name": "马矿股份",
+        "weak": false,
+        "seal_ratio": 0.078,
+        "pos60": 0.19
+      }
+    ],
+    "n_low_second": 1,
     "n_low_second_weak": 0,
     "note": "可买性标记,不计质量",
     "base_rate": "低位二板弱封 T+5 +7.0%/74%(硬封 +9.6%);全体二板弱封 −3.8%/38%"
   },
   "j1": {
     "threshold_yi": 23000,
-    "value_yi": 17003,
+    "value_yi": 20368,
     "green": false
   }
 }
