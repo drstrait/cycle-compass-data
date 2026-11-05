@@ -1,8 +1,8 @@
 {
   "version": "1.1",
-  "chain": "1550",
+  "chain": "2130",
   "trade_date": "20261105",
-  "generated_at": "2026-11-05T15:50:53+08:00",
+  "generated_at": "2026-11-05T21:34:22+08:00",
   "next_trade_date": "20261106",
   "valid_until": "2026-11-06T16:10:00+08:00",
   "market": {
@@ -10,14 +10,14 @@
     "volume_ma20_yi": 16543,
     "volume_ratio": 1.28,
     "breadth_up": 4538,
-    "breadth_down": 603,
+    "breadth_down": 604,
     "breadth_pct": 87.0
   },
   "ew": {
-    "value": 840.79,
-    "ma20": 843.33,
-    "ma60": 888.0,
-    "spread_pct": -2.18
+    "value": 840.95,
+    "ma20": 843.34,
+    "ma60": 888.01,
+    "spread_pct": -2.2
   },
   "regime": {
     "state": "下降(观察)",
@@ -250,11 +250,11 @@
     "sealed_ok": 4,
     "sealed_below": 0,
     "below_names": [
-      "高争民爆",
-      "紫竹高科",
-      "马矿股份",
+      "龙版传媒",
       "大连友谊",
+      "高争民爆",
       "宝明科技",
+      "马矿股份",
       "大晟文化"
     ],
     "base_rate": "符合预期 封板60%/T+1 +2.7%;不及预期 34%/−0.7%"
