@@ -1,23 +1,23 @@
 {
   "version": "1.1",
-  "chain": "1550",
+  "chain": "2130",
   "trade_date": "20261110",
-  "generated_at": "2026-11-10T15:50:45+08:00",
+  "generated_at": "2026-11-10T21:39:17+08:00",
   "next_trade_date": "20261111",
   "valid_until": "2026-11-11T16:10:00+08:00",
   "market": {
     "volume_yi": 15030,
-    "volume_ma20_yi": 16308,
+    "volume_ma20_yi": 16309,
     "volume_ratio": 0.92,
     "breadth_up": 4001,
     "breadth_down": 1073,
     "breadth_pct": 76.7
   },
   "ew": {
-    "value": 840.82,
-    "ma20": 834.3,
-    "ma60": 884.52,
-    "spread_pct": -1.7
+    "value": 840.5,
+    "ma20": 834.28,
+    "ma60": 884.51,
+    "spread_pct": -1.67
   },
   "regime": {
     "state": "下降(观察)",
@@ -250,11 +250,11 @@
     "sealed_ok": 3,
     "sealed_below": 2,
     "below_names": [
-      "日出东方",
-      "闽发铝业",
+      "东方创业",
       "润贝航科",
-      "红太阳",
-      "东方创业"
+      "闽发铝业",
+      "日出东方",
+      "红太阳"
     ],
     "base_rate": "符合预期 封板60%/T+1 +2.7%;不及预期 34%/−0.7%"
   },
