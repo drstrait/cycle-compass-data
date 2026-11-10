@@ -1,95 +1,99 @@
 {
   "version": "1.1",
-  "chain": "2130",
-  "trade_date": "20261109",
-  "generated_at": "2026-11-09T21:36:58+08:00",
-  "next_trade_date": "20261110",
-  "valid_until": "2026-11-10T16:10:00+08:00",
+  "chain": "1550",
+  "trade_date": "20261110",
+  "generated_at": "2026-11-10T15:50:45+08:00",
+  "next_trade_date": "20261111",
+  "valid_until": "2026-11-11T16:10:00+08:00",
   "market": {
-    "volume_yi": 14824,
-    "volume_ma20_yi": 16395,
-    "volume_ratio": 0.9,
-    "breadth_up": 2043,
-    "breadth_down": 3009,
-    "breadth_pct": 39.1
+    "volume_yi": 15030,
+    "volume_ma20_yi": 16308,
+    "volume_ratio": 0.92,
+    "breadth_up": 4001,
+    "breadth_down": 1073,
+    "breadth_pct": 76.7
   },
   "ew": {
-    "value": 826.07,
-    "ma20": 836.69,
-    "ma60": 885.69,
-    "spread_pct": 0.21
+    "value": 840.82,
+    "ma20": 834.3,
+    "ma60": 884.52,
+    "spread_pct": -1.7
   },
   "regime": {
     "state": "下降(观察)",
-    "streak_days": 11,
-    "pending_transition": null
+    "streak_days": 12,
+    "pending_transition": "震荡(第1日)"
   },
   "limits": {
-    "up_count": 54,
-    "down_count": 1,
-    "max_streak": 6,
+    "up_count": 93,
+    "down_count": 0,
+    "max_streak": 7,
     "ladder": [
       {
-        "height": 6,
+        "height": 7,
         "count": 1
       },
       {
+        "height": 3,
+        "count": 4
+      },
+      {
         "height": 2,
-        "count": 8
+        "count": 15
       },
       {
         "height": 1,
-        "count": 45
+        "count": 73
       }
     ],
-    "promotion_rate_pct": 28,
-    "fried_rate_pct": 45,
+    "promotion_rate_pct": 36,
+    "fried_rate_pct": 17,
     "yesterday_premium_pct": 4.1,
     "auction_one_word_count": 9
   },
   "sectors": {
     "top": [
       {
-        "name": "焦炭Ⅲ",
-        "pct": 5.4
+        "name": "传媒娱乐",
+        "pct": 4.5
       },
       {
-        "name": "焦炭Ⅱ",
-        "pct": 5.4
+        "name": "纺织机械",
+        "pct": 2.6
       },
       {
-        "name": "卫浴电器",
-        "pct": 5.1
+        "name": "造纸行业",
+        "pct": 2.6
       },
       {
-        "name": "汽车综合服务",
-        "pct": 4.2
+        "name": "塑料制品",
+        "pct": 2.3
       },
       {
-        "name": "煤炭",
-        "pct": 3.5
+        "name": "家具行业",
+        "pct": 2.3
       }
     ],
     "bottom": [
       {
-        "name": "教育运营及其他",
-        "pct": -6.7
+        "name": "陶瓷行业",
+        "pct": -1.7
       },
       {
-        "name": "宠物食品",
-        "pct": -3.5
+        "name": "船舶制造",
+        "pct": -1.4
       },
       {
-        "name": "钾肥",
-        "pct": -3.0
+        "name": "石油行业",
+        "pct": -1.3
       },
       {
-        "name": "逆变器",
-        "pct": -2.9
+        "name": "煤炭行业",
+        "pct": -1.2
       },
       {
-        "name": "锂",
-        "pct": -2.9
+        "name": "飞机制造",
+        "pct": -0.4
       }
     ]
   },
@@ -97,92 +101,102 @@
     {
       "code": "002578",
       "name": "闽发铝业",
-      "streak": 6,
+      "streak": 7,
       "industry": "工业金属",
-      "tor_f": 25.5,
-      "first_seal": "092500",
-      "open_times": 1,
-      "seal_yi": 1.9
+      "tor_f": 66.5,
+      "first_seal": "141303",
+      "open_times": 0,
+      "seal_yi": 0.9
     },
     {
       "code": "603366",
       "name": "日出东方",
-      "streak": 2,
+      "streak": 3,
       "industry": "厨卫电器",
       "tor_f": 1.8,
-      "first_seal": "092502",
+      "first_seal": "092501",
       "open_times": 0,
-      "seal_yi": 8.0
+      "seal_yi": 7.8
     },
     {
       "code": "002310",
       "name": "东方新能",
-      "streak": 2,
+      "streak": 3,
       "industry": "电力",
-      "tor_f": 2.8,
+      "tor_f": 2.1,
       "first_seal": "092500",
       "open_times": 0,
-      "seal_yi": 2.3
-    },
-    {
-      "code": "002889",
-      "name": "东方嘉盛",
-      "streak": 2,
-      "industry": "物流",
-      "tor_f": 8.5,
-      "first_seal": "093000",
-      "open_times": 0,
-      "seal_yi": 1.8
-    },
-    {
-      "code": "601188",
-      "name": "龙江交通",
-      "streak": 2,
-      "industry": "铁路公路",
-      "tor_f": 17.8,
-      "first_seal": "093004",
-      "open_times": 1,
-      "seal_yi": 1.0
+      "seal_yi": 3.2
     },
     {
       "code": "600327",
       "name": "大东方",
-      "streak": 2,
+      "streak": 3,
       "industry": "一般零售",
-      "tor_f": 35.7,
-      "first_seal": "093005",
-      "open_times": 4,
-      "seal_yi": 0.7
-    },
-    {
-      "code": "001316",
-      "name": "润贝航科",
-      "streak": 2,
-      "industry": "炼化及贸",
-      "tor_f": 15.0,
-      "first_seal": "094139",
+      "tor_f": 13.0,
+      "first_seal": "093020",
       "open_times": 0,
-      "seal_yi": 0.4
+      "seal_yi": 2.2
     },
     {
-      "code": "600278",
-      "name": "东方创业",
-      "streak": 2,
-      "industry": "贸易Ⅱ",
-      "tor_f": 24.1,
-      "first_seal": "095757",
-      "open_times": 9,
-      "seal_yi": 0.2
-    },
-    {
-      "code": "000525",
-      "name": "红太阳",
-      "streak": 2,
-      "industry": "农化制品",
-      "tor_f": 23.6,
-      "first_seal": "135648",
-      "open_times": 10,
+      "code": "601188",
+      "name": "龙江交通",
+      "streak": 3,
+      "industry": "铁路公路",
+      "tor_f": 65.4,
+      "first_seal": "092502",
+      "open_times": 11,
       "seal_yi": 0.1
+    },
+    {
+      "code": "002708",
+      "name": "光洋股份",
+      "streak": 2,
+      "industry": "汽车零部",
+      "tor_f": 4.4,
+      "first_seal": "093012",
+      "open_times": 0,
+      "seal_yi": 2.7
+    },
+    {
+      "code": "002623",
+      "name": "亚玛顿",
+      "streak": 2,
+      "industry": "光伏设备",
+      "tor_f": null,
+      "first_seal": "092500",
+      "open_times": 0,
+      "seal_yi": 2.4
+    },
+    {
+      "code": "600715",
+      "name": "文投控股",
+      "streak": 2,
+      "industry": "游戏Ⅱ",
+      "tor_f": 8.6,
+      "first_seal": "093110",
+      "open_times": 0,
+      "seal_yi": 1.9
+    },
+    {
+      "code": "002931",
+      "name": "锋龙股份",
+      "streak": 2,
+      "industry": "通用设备",
+      "tor_f": 8.2,
+      "first_seal": "093130",
+      "open_times": 0,
+      "seal_yi": 1.4
+    },
+    {
+      "code": "000530",
+      "name": "冰山冷热",
+      "streak": 2,
+      "industry": "通用设备",
+      "tor_f": 34.2,
+      "first_seal": "093015",
+      "open_times": 5,
+      "seal_yi": 1.3
     }
   ],
   "golden_grid": {
@@ -193,16 +207,16 @@
     "g1_size_note": "行业成员市值中位越小 T+10 越强(汽车/轻工/机械/建筑装饰 +9~+16;有色/军工/电力设备 +4~+5);行业内大市值股 5 日先弹 10 日吐回,小市值 10 日接上",
     "g2": {
       "fire": false,
-      "dd_pct": -11.3,
+      "dd_pct": -9.7,
       "last3": [
-        2.28,
         -1.87,
-        0.09
+        0.09,
+        1.78
       ]
     },
     "g4": {
       "fire": false,
-      "n": 8
+      "n": 10
     },
     "base_rates": {
       "g1": "T+10 +8.1%/81% (n=234)",
@@ -211,43 +225,42 @@
     }
   },
   "ice": {
-    "red": 2043,
-    "total": 5220,
-    "prev_red": 716,
+    "red": 4001,
+    "total": 5218,
+    "prev_red": 2043,
     "ice": false,
     "ice2": false,
     "threshold": 1000,
-    "sh_pct": 0.32,
+    "sh_pct": 0.08,
     "resonant": false,
     "resonant_rule": "ice ∧ 上证当日 ≤ −1.5%",
-    "social_n": 1,
+    "social_n": 0,
     "social_hot": false,
     "social_rule": "ice ∧ 微博热搜股市类词条 ≥3(国内口径)",
-    "social_asof": "2026-11-09",
-    "n_limit_down": 1,
+    "social_asof": "2026-11-10",
+    "n_limit_down": 0,
     "limit_down_pour": false,
     "pour_rule": "当日跌停 ≥60 只",
     "base_rate": "后5日等权 +0.5~+2.6%/52–80%;二冰 +2.25%/71%;共振冰点 +1.90%/63%、涨停数 +114%(n=70);仅情绪冰点 +0.51%/60%;冰点·出圈 T+20 +4.22%/68%(n=66)vs 冰点无出圈 +0.45%/53%(n=111);跌停潮(跌停≥60)后5日 +2.9%/71%、后10日 +4.53%(n=45)"
   },
   "expect_open": {
-    "n": 11,
-    "below": 8,
-    "below_pct": 72.7,
-    "sealed_ok": 0,
-    "sealed_below": 1,
+    "n": 9,
+    "below": 5,
+    "below_pct": 55.6,
+    "sealed_ok": 3,
+    "sealed_below": 2,
     "below_names": [
-      "南侨食品",
-      "贝特利",
-      "春光科技",
-      "永臻股份",
-      "浙文影业",
-      "闽发铝业"
+      "日出东方",
+      "闽发铝业",
+      "润贝航科",
+      "红太阳",
+      "东方创业"
     ],
     "base_rate": "符合预期 封板60%/T+1 +2.7%;不及预期 34%/−0.7%"
   },
   "weak_seal": {
-    "n_limit_up": 54,
-    "n_weak": 9,
+    "n_limit_up": 93,
+    "n_weak": 21,
     "threshold": 0.05,
     "low_second": [],
     "n_low_second": 0,
@@ -257,7 +270,7 @@
   },
   "j1": {
     "threshold_yi": 23000,
-    "value_yi": 14824,
+    "value_yi": 15030,
     "green": false
   }
 }
