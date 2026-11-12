@@ -1,99 +1,103 @@
 {
   "version": "1.1",
-  "chain": "2130",
-  "trade_date": "20261111",
-  "generated_at": "2026-11-11T21:34:15+08:00",
-  "next_trade_date": "20261112",
-  "valid_until": "2026-11-12T16:10:00+08:00",
+  "chain": "1550",
+  "trade_date": "20261112",
+  "generated_at": "2026-11-12T15:51:24+08:00",
+  "next_trade_date": "20261113",
+  "valid_until": "2026-11-13T16:10:00+08:00",
   "market": {
-    "volume_yi": 16760,
-    "volume_ma20_yi": 16440,
-    "volume_ratio": 1.02,
-    "breadth_up": 3381,
-    "breadth_down": 1646,
-    "breadth_pct": 64.8
+    "volume_yi": 19319,
+    "volume_ma20_yi": 16591,
+    "volume_ratio": 1.16,
+    "breadth_up": 838,
+    "breadth_down": 4320,
+    "breadth_pct": 16.1
   },
   "ew": {
-    "value": 850.1,
-    "ma20": 833.15,
-    "ma60": 883.56,
-    "spread_pct": -0.68
+    "value": 837.38,
+    "ma20": 832.65,
+    "ma60": 882.21,
+    "spread_pct": 0.83
   },
   "regime": {
-    "state": "下降(观察)",
-    "streak_days": 13,
-    "pending_transition": "震荡(第2日)"
+    "state": "震荡(标准)",
+    "streak_days": 1,
+    "pending_transition": null
   },
   "limits": {
-    "up_count": 85,
-    "down_count": 0,
-    "max_streak": 4,
+    "up_count": 37,
+    "down_count": 5,
+    "max_streak": 5,
     "ladder": [
+      {
+        "height": 5,
+        "count": 2
+      },
       {
         "height": 4,
         "count": 2
       },
       {
         "height": 3,
-        "count": 5
+        "count": 2
       },
       {
         "height": 2,
-        "count": 12
+        "count": 5
       },
       {
         "height": 1,
-        "count": 66
+        "count": 26
       }
     ],
-    "promotion_rate_pct": 20,
-    "fried_rate_pct": 18,
-    "yesterday_premium_pct": 2.0,
-    "auction_one_word_count": 8
+    "promotion_rate_pct": 13,
+    "fried_rate_pct": 49,
+    "yesterday_premium_pct": 2.2,
+    "auction_one_word_count": 10
   },
   "sectors": {
     "top": [
       {
-        "name": "次新股",
-        "pct": 3.5
-      },
-      {
-        "name": "玻璃行业",
-        "pct": 3.4
-      },
-      {
-        "name": "机械行业",
-        "pct": 3.3
-      },
-      {
         "name": "陶瓷行业",
-        "pct": 3.0
+        "pct": 4.2
       },
       {
-        "name": "电子器件",
-        "pct": 2.2
+        "name": "次新股",
+        "pct": 0.6
+      },
+      {
+        "name": "酿酒行业",
+        "pct": 0.6
+      },
+      {
+        "name": "印刷包装",
+        "pct": 0.5
+      },
+      {
+        "name": "农林牧渔",
+        "pct": 0.3
       }
     ],
     "bottom": [
       {
-        "name": "酿酒行业",
-        "pct": -2.7
+        "name": "传媒娱乐",
+        "pct": -3.4
       },
       {
-        "name": "生物制药",
-        "pct": -0.9
+        "name": "机械行业",
+        "pct": -2.9
       },
       {
-        "name": "农林牧渔",
-        "pct": -0.9
+        "name": "仪器仪表",
+        "pct": -2.3
       },
       {
-        "name": "酒店旅游",
-        "pct": -0.8
+        "name": "有色金属",
+        "pct": -2.3
       },
       {
-        "name": "食品行业",
-        "pct": -0.8
+        "name": "电子信息",
+        "pct": -2.3
       }
     ]
   },
@@ -101,122 +105,130 @@
     {
       "code": "603366",
       "name": "日出东方",
-      "streak": 4,
+      "streak": 5,
       "industry": "厨卫电器",
-      "tor_f": 2.9,
-      "first_seal": "092501",
-      "open_times": 0,
-      "seal_yi": 5.7
+      "tor_f": 50.4,
+      "first_seal": "093018",
+      "open_times": 7,
+      "seal_yi": 0.8
     },
     {
       "code": "600327",
       "name": "大东方",
-      "streak": 4,
+      "streak": 5,
       "industry": "一般零售",
-      "tor_f": 21.2,
-      "first_seal": "092501",
-      "open_times": 2,
-      "seal_yi": 1.2
+      "tor_f": 69.8,
+      "first_seal": "145647",
+      "open_times": 0,
+      "seal_yi": 0.3
     },
     {
       "code": "002623",
       "name": "亚玛顿",
-      "streak": 3,
+      "streak": 4,
       "industry": "光伏设备",
-      "tor_f": 0.9,
+      "tor_f": 1.7,
       "first_seal": "092500",
       "open_times": 0,
       "seal_yi": 1.7
     },
     {
-      "code": "002931",
-      "name": "锋龙股份",
-      "streak": 3,
-      "industry": "通用设备",
-      "tor_f": 11.9,
-      "first_seal": "093021",
-      "open_times": 1,
-      "seal_yi": 1.5
-    },
-    {
-      "code": "600715",
-      "name": "文投控股",
-      "streak": 3,
-      "industry": "游戏Ⅱ",
-      "tor_f": 32.6,
-      "first_seal": "092500",
-      "open_times": 9,
-      "seal_yi": 1.0
-    },
-    {
-      "code": "002708",
-      "name": "光洋股份",
-      "streak": 3,
-      "industry": "汽车零部",
-      "tor_f": 25.4,
-      "first_seal": "094345",
-      "open_times": 2,
-      "seal_yi": 1.0
-    },
-    {
       "code": "603706",
       "name": "东方环宇",
-      "streak": 3,
+      "streak": 4,
       "industry": "燃气Ⅱ",
-      "tor_f": 28.6,
-      "first_seal": "101322",
-      "open_times": 10,
-      "seal_yi": 0.1
-    },
-    {
-      "code": "002209",
-      "name": "达 意 隆",
-      "streak": 2,
-      "industry": "专用设备",
-      "tor_f": 1.9,
-      "first_seal": "092500",
+      "tor_f": 28.3,
+      "first_seal": "110046",
       "open_times": 0,
-      "seal_yi": 4.7
+      "seal_yi": 0.4
     },
     {
       "code": "603536",
       "name": "惠发食品",
-      "streak": 2,
+      "streak": 3,
       "industry": "食品加工",
-      "tor_f": 8.8,
-      "first_seal": "093001",
+      "tor_f": 54.2,
+      "first_seal": "093011",
+      "open_times": 1,
+      "seal_yi": 0.5
+    },
+    {
+      "code": "605255",
+      "name": "天普股份",
+      "streak": 3,
+      "industry": "汽车零部",
+      "tor_f": 5.8,
+      "first_seal": "094102",
+      "open_times": 2,
+      "seal_yi": 0.1
+    },
+    {
+      "code": "603396",
+      "name": "金辰股份",
+      "streak": 2,
+      "industry": "光伏设备",
+      "tor_f": 1.5,
+      "first_seal": "092501",
       "open_times": 0,
+      "seal_yi": 2.5
+    },
+    {
+      "code": "002148",
+      "name": "北纬科技",
+      "streak": 2,
+      "industry": "通信服务",
+      "tor_f": 31.6,
+      "first_seal": "092500",
+      "open_times": 6,
       "seal_yi": 0.8
     },
     {
-      "code": "001339",
-      "name": "智微智能",
+      "code": "603725",
+      "name": "天安新材",
       "streak": 2,
-      "industry": "计算机设",
-      "tor_f": 25.4,
-      "first_seal": "103424",
+      "industry": "家居用品",
+      "tor_f": 10.5,
+      "first_seal": "092500",
       "open_times": 1,
       "seal_yi": 0.6
+    },
+    {
+      "code": "002593",
+      "name": "日上集团",
+      "streak": 2,
+      "industry": "专业工程",
+      "tor_f": 44.1,
+      "first_seal": "093024",
+      "open_times": 4,
+      "seal_yi": 0.3
     }
   ],
   "golden_grid": {
     "basis": "next_open",
     "fired": false,
     "g1": [],
-    "g1_near": [],
+    "g1_near": [
+      {
+        "l1": "计算机",
+        "today_pct": -2.72,
+        "p10_pct": 0.8,
+        "p60_pct": -6.8,
+        "mv_median_yi": 47.0
+      }
+    ],
     "g1_size_note": "行业成员市值中位越小 T+10 越强(汽车/轻工/机械/建筑装饰 +9~+16;有色/军工/电力设备 +4~+5);行业内大市值股 5 日先弹 10 日吐回,小市值 10 日接上",
     "g2": {
       "fire": false,
-      "dd_pct": -8.6,
+      "dd_pct": -9.9,
       "last3": [
-        0.09,
         1.82,
-        1.2
+        1.2,
+        -1.5
       ]
     },
     "g4": {
       "fire": false,
-      "n": 13
+      "n": 12
     },
     "base_rates": {
       "g1": "T+10 +8.1%/81% (n=234)",
@@ -225,43 +237,43 @@
     }
   },
   "ice": {
-    "red": 3381,
-    "total": 5218,
-    "prev_red": 4001,
-    "ice": false,
+    "red": 838,
+    "total": 5219,
+    "prev_red": 3381,
+    "ice": true,
     "ice2": false,
     "threshold": 1000,
-    "sh_pct": 0.46,
+    "sh_pct": -0.67,
     "resonant": false,
     "resonant_rule": "ice ∧ 上证当日 ≤ −1.5%",
     "social_n": 0,
     "social_hot": false,
     "social_rule": "ice ∧ 微博热搜股市类词条 ≥3(国内口径)",
-    "social_asof": "2026-11-11",
-    "n_limit_down": 0,
+    "social_asof": "2026-11-12",
+    "n_limit_down": 5,
     "limit_down_pour": false,
     "pour_rule": "当日跌停 ≥60 只",
     "base_rate": "后5日等权 +0.5~+2.6%/52–80%;二冰 +2.25%/71%;共振冰点 +1.90%/63%、涨停数 +114%(n=70);仅情绪冰点 +0.51%/60%;冰点·出圈 T+20 +4.22%/68%(n=66)vs 冰点无出圈 +0.45%/53%(n=111);跌停潮(跌停≥60)后5日 +2.9%/71%、后10日 +4.53%(n=45)"
   },
   "expect_open": {
-    "n": 20,
-    "below": 11,
-    "below_pct": 55.0,
-    "sealed_ok": 6,
-    "sealed_below": 1,
+    "n": 19,
+    "below": 14,
+    "below_pct": 73.7,
+    "sealed_ok": 1,
+    "sealed_below": 5,
     "below_names": [
-      "大晟文化",
-      "冰山冷热",
-      "闽发铝业",
-      "泰尔股份",
-      "盛洋科技",
-      "龙江交通"
+      "上海电影",
+      "惠发食品",
+      "瀛通通讯",
+      "智微智能",
+      "常铝股份",
+      "风语筑"
     ],
     "base_rate": "符合预期 封板60%/T+1 +2.7%;不及预期 34%/−0.7%"
   },
   "weak_seal": {
-    "n_limit_up": 84,
-    "n_weak": 26,
+    "n_limit_up": 37,
+    "n_weak": 17,
     "threshold": 0.05,
     "low_second": [],
     "n_low_second": 0,
@@ -271,7 +283,7 @@
   },
   "j1": {
     "threshold_yi": 23000,
-    "value_yi": 16760,
+    "value_yi": 19319,
     "green": false
   }
 }
