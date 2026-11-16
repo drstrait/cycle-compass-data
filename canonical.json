@@ -1,20 +1,20 @@
 {
   "version": "1.1",
-  "chain": "1550",
+  "chain": "2130",
   "trade_date": "20261116",
-  "generated_at": "2026-11-16T15:50:50+08:00",
+  "generated_at": "2026-11-16T21:34:01+08:00",
   "next_trade_date": "20261117",
   "valid_until": "2026-11-17T16:10:00+08:00",
   "market": {
     "volume_yi": 14775,
-    "volume_ma20_yi": 16662,
+    "volume_ma20_yi": 16665,
     "volume_ratio": 0.89,
     "breadth_up": 1108,
     "breadth_down": 4018,
     "breadth_pct": 21.2
   },
   "ew": {
-    "value": 800.48,
+    "value": 800.5,
     "ma20": 828.63,
     "ma60": 878.91,
     "spread_pct": 1.5
@@ -279,11 +279,11 @@
     "sealed_ok": 1,
     "sealed_below": 2,
     "below_names": [
-      "广百股份",
-      "金辰股份",
-      "国统股份",
-      "兴欣新材",
       "天普股份",
+      "兴欣新材",
+      "广百股份",
+      "国统股份",
+      "金辰股份",
       "好当家"
     ],
     "base_rate": "符合预期 封板60%/T+1 +2.7%;不及预期 34%/−0.7%"
