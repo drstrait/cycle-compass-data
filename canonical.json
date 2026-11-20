@@ -1,8 +1,8 @@
 {
   "version": "1.1",
-  "chain": "1550",
+  "chain": "2130",
   "trade_date": "20261120",
-  "generated_at": "2026-11-20T15:50:49+08:00",
+  "generated_at": "2026-11-20T21:36:13+08:00",
   "next_trade_date": "20261123",
   "valid_until": "2026-11-23T16:10:00+08:00",
   "market": {
@@ -14,7 +14,7 @@
     "breadth_pct": 5.7
   },
   "ew": {
-    "value": 724.26,
+    "value": 724.24,
     "ma20": 811.38,
     "ma60": 869.22,
     "spread_pct": 3.52
@@ -283,8 +283,8 @@
     "sealed_ok": 1,
     "sealed_below": 1,
     "below_names": [
-      "华升股份",
       "真视通",
+      "华升股份",
       "全筑股份",
       "京蓝科技"
     ],
