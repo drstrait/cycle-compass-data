@@ -1,8 +1,8 @@
 {
   "version": "1.1",
-  "chain": "1550",
+  "chain": "2130",
   "trade_date": "20261123",
-  "generated_at": "2026-11-23T15:50:55+08:00",
+  "generated_at": "2026-11-23T21:32:58+08:00",
   "next_trade_date": "20261124",
   "valid_until": "2026-11-24T16:10:00+08:00",
   "market": {
@@ -14,10 +14,10 @@
     "breadth_pct": 82.5
   },
   "ew": {
-    "value": 744.43,
-    "ma20": 806.38,
-    "ma60": 866.65,
-    "spread_pct": -2.64
+    "value": 744.89,
+    "ma20": 806.4,
+    "ma60": 866.66,
+    "spread_pct": -2.7
   },
   "regime": {
     "state": "下降(标准熊)",
@@ -234,7 +234,7 @@
     "sh_pct": 0.15,
     "resonant": false,
     "resonant_rule": "ice ∧ 上证当日 ≤ −1.5%",
-    "social_n": 4,
+    "social_n": 5,
     "social_hot": false,
     "social_rule": "ice ∧ 微博热搜股市类词条 ≥3(国内口径)",
     "social_asof": "2026-11-23",
