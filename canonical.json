@@ -1,222 +1,222 @@
 {
   "version": "1.1",
-  "chain": "2130",
-  "trade_date": "20261123",
-  "generated_at": "2026-11-23T21:32:58+08:00",
-  "next_trade_date": "20261124",
-  "valid_until": "2026-11-24T16:10:00+08:00",
+  "chain": "1550",
+  "trade_date": "20261124",
+  "generated_at": "2026-11-24T15:51:42+08:00",
+  "next_trade_date": "20261125",
+  "valid_until": "2026-11-25T16:10:00+08:00",
   "market": {
-    "volume_yi": 15525,
-    "volume_ma20_yi": 16230,
-    "volume_ratio": 0.96,
-    "breadth_up": 4305,
-    "breadth_down": 780,
-    "breadth_pct": 82.5
+    "volume_yi": 16536,
+    "volume_ma20_yi": 16326,
+    "volume_ratio": 1.01,
+    "breadth_up": 1836,
+    "breadth_down": 3263,
+    "breadth_pct": 35.2
   },
   "ew": {
-    "value": 744.89,
-    "ma20": 806.4,
-    "ma60": 866.66,
-    "spread_pct": -2.7
+    "value": 744.23,
+    "ma20": 802.58,
+    "ma60": 864.26,
+    "spread_pct": 0.36
   },
   "regime": {
     "state": "下降(标准熊)",
-    "streak_days": 5,
+    "streak_days": 6,
     "pending_transition": null
   },
   "limits": {
-    "up_count": 146,
-    "down_count": 3,
-    "max_streak": 5,
+    "up_count": 55,
+    "down_count": 2,
+    "max_streak": 4,
     "ladder": [
       {
-        "height": 5,
-        "count": 2
-      },
-      {
-        "height": 3,
+        "height": 4,
         "count": 1
       },
       {
+        "height": 3,
+        "count": 4
+      },
+      {
         "height": 2,
-        "count": 13
+        "count": 25
       },
       {
         "height": 1,
-        "count": 130
+        "count": 25
       }
     ],
-    "promotion_rate_pct": 57,
-    "fried_rate_pct": 14,
-    "yesterday_premium_pct": 1.9,
-    "auction_one_word_count": 7
+    "promotion_rate_pct": 21,
+    "fried_rate_pct": 55,
+    "yesterday_premium_pct": 4.1,
+    "auction_one_word_count": 25
   },
   "sectors": {
     "top": [
       {
-        "name": "次新股",
-        "pct": 5.1
+        "name": "陶瓷行业",
+        "pct": 2.2
       },
       {
-        "name": "家具行业",
-        "pct": 4.5
+        "name": "开发区",
+        "pct": 1.7
       },
       {
-        "name": "仪器仪表",
-        "pct": 4.1
+        "name": "飞机制造",
+        "pct": 1.5
       },
       {
-        "name": "传媒娱乐",
-        "pct": 4.0
+        "name": "船舶制造",
+        "pct": 1.4
       },
       {
-        "name": "机械行业",
-        "pct": 3.6
+        "name": "家电行业",
+        "pct": 0.9
       }
     ],
     "bottom": [
       {
-        "name": "陶瓷行业",
-        "pct": -2.0
+        "name": "有色金属",
+        "pct": -2.3
       },
       {
-        "name": "酿酒行业",
-        "pct": -1.7
+        "name": "环保行业",
+        "pct": -1.6
       },
       {
-        "name": "金融行业",
-        "pct": -0.7
+        "name": "煤炭行业",
+        "pct": -1.6
       },
       {
-        "name": "公路桥梁",
-        "pct": -0.7
+        "name": "供水供气",
+        "pct": -1.4
       },
       {
-        "name": "电力行业",
-        "pct": -0.3
+        "name": "石油行业",
+        "pct": -1.4
       }
     ]
   },
   "mustread": [
     {
-      "code": "002771",
-      "name": "真视通",
-      "streak": 5,
-      "industry": "IT服务Ⅱ",
-      "tor_f": 63.8,
-      "first_seal": "092500",
-      "open_times": 6,
-      "seal_yi": 0.5
-    },
-    {
-      "code": "603324",
-      "name": "盛剑科技",
-      "streak": 5,
-      "industry": "环保设备",
-      "tor_f": 55.9,
-      "first_seal": "130303",
-      "open_times": 0,
-      "seal_yi": 0.3
-    },
-    {
       "code": "002579",
       "name": "中京电子",
-      "streak": 3,
+      "streak": 4,
       "industry": "元件",
-      "tor_f": 42.5,
-      "first_seal": "093051",
-      "open_times": 6,
-      "seal_yi": 1.0
+      "tor_f": 12.3,
+      "first_seal": "092500",
+      "open_times": 0,
+      "seal_yi": 2.0
     },
     {
       "code": "603960",
       "name": "克来机电",
+      "streak": 3,
+      "industry": "汽车零部",
+      "tor_f": 0.9,
+      "first_seal": "092501",
+      "open_times": 0,
+      "seal_yi": 3.3
+    },
+    {
+      "code": "605018",
+      "name": "长华集团",
+      "streak": 3,
+      "industry": "汽车零部",
+      "tor_f": 4.2,
+      "first_seal": "092502",
+      "open_times": 0,
+      "seal_yi": 0.9
+    },
+    {
+      "code": "002086",
+      "name": "东方海洋",
+      "streak": 3,
+      "industry": "农产品加",
+      "tor_f": 35.2,
+      "first_seal": "094551",
+      "open_times": 10,
+      "seal_yi": 0.8
+    },
+    {
+      "code": "002548",
+      "name": "金新农",
+      "streak": 3,
+      "industry": "饲料",
+      "tor_f": 14.2,
+      "first_seal": "093151",
+      "open_times": 0,
+      "seal_yi": 0.2
+    },
+    {
+      "code": "001278",
+      "name": "一彬科技",
       "streak": 2,
       "industry": "汽车零部",
-      "tor_f": 1.4,
+      "tor_f": 3.9,
+      "first_seal": "092500",
+      "open_times": 0,
+      "seal_yi": 4.2
+    },
+    {
+      "code": "002242",
+      "name": "九阳股份",
+      "streak": 2,
+      "industry": "小家电",
+      "tor_f": 12.6,
+      "first_seal": "093151",
+      "open_times": 1,
+      "seal_yi": 3.2
+    },
+    {
+      "code": "002164",
+      "name": "宁波东力",
+      "streak": 2,
+      "industry": "通用设备",
+      "tor_f": 0.9,
+      "first_seal": "092500",
+      "open_times": 0,
+      "seal_yi": 2.9
+    },
+    {
+      "code": "002708",
+      "name": "光洋股份",
+      "streak": 2,
+      "industry": "汽车零部",
+      "tor_f": 1.2,
       "first_seal": "092500",
       "open_times": 0,
       "seal_yi": 1.7
     },
     {
-      "code": "002642",
-      "name": "荣联科技",
-      "streak": 2,
-      "industry": "IT服务Ⅱ",
-      "tor_f": 7.2,
-      "first_seal": "093000",
-      "open_times": 0,
-      "seal_yi": 1.4
-    },
-    {
-      "code": "002086",
-      "name": "东方海洋",
-      "streak": 2,
-      "industry": "农产品加",
-      "tor_f": 26.6,
-      "first_seal": "093127",
-      "open_times": 13,
-      "seal_yi": 1.3
-    },
-    {
-      "code": "301313",
-      "name": "凡拓数创",
-      "streak": 2,
-      "industry": "数字媒体",
-      "tor_f": 39.3,
-      "first_seal": "110327",
-      "open_times": 0,
-      "seal_yi": 0.9
-    },
-    {
-      "code": "000593",
-      "name": "德龙汇能",
-      "streak": 2,
-      "industry": "燃气Ⅱ",
-      "tor_f": 1.8,
-      "first_seal": "092500",
-      "open_times": 0,
-      "seal_yi": 0.7
-    },
-    {
-      "code": "000530",
-      "name": "冰山冷热",
+      "code": "002122",
+      "name": "汇洲智能",
       "streak": 2,
       "industry": "通用设备",
-      "tor_f": 52.2,
-      "first_seal": "135918",
-      "open_times": 4,
-      "seal_yi": 0.6
-    },
-    {
-      "code": "605577",
-      "name": "龙版传媒",
-      "streak": 2,
-      "industry": "出版",
-      "tor_f": 54.2,
-      "first_seal": "131932",
-      "open_times": 1,
-      "seal_yi": 0.4
+      "tor_f": 1.1,
+      "first_seal": "092500",
+      "open_times": 0,
+      "seal_yi": 1.7
     }
   ],
   "golden_grid": {
     "basis": "next_open",
-    "fired": false,
+    "fired": true,
     "g1": [],
     "g1_near": [],
     "g1_size_note": "行业成员市值中位越小 T+10 越强(汽车/轻工/机械/建筑装饰 +9~+16;有色/军工/电力设备 +4~+5);行业内大市值股 5 日先弹 10 日吐回,小市值 10 日接上",
     "g2": {
       "fire": false,
-      "dd_pct": -19.0,
+      "dd_pct": -19.1,
       "last3": [
-        -2.45,
         -4.75,
-        2.79
+        2.79,
+        -0.09
       ]
     },
     "g4": {
-      "fire": false,
-      "n": 14
+      "fire": true,
+      "n": 0
     },
     "base_rates": {
       "g1": "T+10 +8.1%/81% (n=234)",
@@ -225,48 +225,72 @@
     }
   },
   "ice": {
-    "red": 4305,
-    "total": 5216,
-    "prev_red": 297,
+    "red": 1836,
+    "total": 5213,
+    "prev_red": 4305,
     "ice": false,
     "ice2": false,
     "threshold": 1000,
-    "sh_pct": 0.15,
+    "sh_pct": 0.27,
     "resonant": false,
     "resonant_rule": "ice ∧ 上证当日 ≤ −1.5%",
-    "social_n": 5,
+    "social_n": 0,
     "social_hot": false,
     "social_rule": "ice ∧ 微博热搜股市类词条 ≥3(国内口径)",
-    "social_asof": "2026-11-23",
-    "n_limit_down": 3,
+    "social_asof": "2026-11-24",
+    "n_limit_down": 2,
     "limit_down_pour": false,
     "pour_rule": "当日跌停 ≥60 只",
     "base_rate": "后5日等权 +0.5~+2.6%/52–80%;二冰 +2.25%/71%;共振冰点 +1.90%/63%、涨停数 +114%(n=70);仅情绪冰点 +0.51%/60%;冰点·出圈 T+20 +4.22%/68%(n=66)vs 冰点无出圈 +0.45%/53%(n=111);跌停潮(跌停≥60)后5日 +2.9%/71%、后10日 +4.53%(n=45)"
   },
   "expect_open": {
-    "n": 3,
-    "below": 1,
-    "below_pct": 33.3,
-    "sealed_ok": 2,
-    "sealed_below": 1,
+    "n": 16,
+    "below": 11,
+    "below_pct": 68.8,
+    "sealed_ok": 1,
+    "sealed_below": 4,
     "below_names": [
-      "盛剑科技"
+      "冰山冷热",
+      "克来机电",
+      "龙版传媒",
+      "金新农",
+      "荣联科技",
+      "中京电子"
     ],
     "base_rate": "符合预期 封板60%/T+1 +2.7%;不及预期 34%/−0.7%"
   },
   "weak_seal": {
-    "n_limit_up": 145,
-    "n_weak": 46,
+    "n_limit_up": 55,
+    "n_weak": 17,
     "threshold": 0.05,
-    "low_second": [],
-    "n_low_second": 0,
-    "n_low_second_weak": 0,
+    "low_second": [
+      {
+        "name": "魅视科技",
+        "weak": false,
+        "seal_ratio": 1.848,
+        "pos60": 0.27
+      },
+      {
+        "name": "淳中科技",
+        "weak": false,
+        "seal_ratio": 0.641,
+        "pos60": 0.17
+      },
+      {
+        "name": "新坐标",
+        "weak": true,
+        "seal_ratio": 0.05,
+        "pos60": 0.29
+      }
+    ],
+    "n_low_second": 3,
+    "n_low_second_weak": 1,
     "note": "可买性标记,不计质量",
     "base_rate": "低位二板弱封 T+5 +7.0%/74%(硬封 +9.6%);全体二板弱封 −3.8%/38%"
   },
   "j1": {
     "threshold_yi": 23000,
-    "value_yi": 15525,
+    "value_yi": 16536,
     "green": false
   }
 }
