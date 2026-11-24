@@ -1,23 +1,23 @@
 {
   "version": "1.1",
-  "chain": "1550",
+  "chain": "2130",
   "trade_date": "20261124",
-  "generated_at": "2026-11-24T15:51:42+08:00",
+  "generated_at": "2026-11-24T21:35:44+08:00",
   "next_trade_date": "20261125",
   "valid_until": "2026-11-25T16:10:00+08:00",
   "market": {
     "volume_yi": 16536,
-    "volume_ma20_yi": 16326,
+    "volume_ma20_yi": 16327,
     "volume_ratio": 1.01,
     "breadth_up": 1836,
     "breadth_down": 3263,
     "breadth_pct": 35.2
   },
   "ew": {
-    "value": 744.23,
-    "ma20": 802.58,
+    "value": 744.01,
+    "ma20": 802.57,
     "ma60": 864.26,
-    "spread_pct": 0.36
+    "spread_pct": 0.39
   },
   "regime": {
     "state": "下降(标准熊)",
@@ -234,7 +234,7 @@
     "sh_pct": 0.27,
     "resonant": false,
     "resonant_rule": "ice ∧ 上证当日 ≤ −1.5%",
-    "social_n": 0,
+    "social_n": 2,
     "social_hot": false,
     "social_rule": "ice ∧ 微博热搜股市类词条 ≥3(国内口径)",
     "social_asof": "2026-11-24",
@@ -250,12 +250,12 @@
     "sealed_ok": 1,
     "sealed_below": 4,
     "below_names": [
-      "冰山冷热",
       "克来机电",
-      "龙版传媒",
-      "金新农",
+      "东方海洋",
+      "中京电子",
       "荣联科技",
-      "中京电子"
+      "龙版传媒",
+      "真视通"
     ],
     "base_rate": "符合预期 封板60%/T+1 +2.7%;不及预期 34%/−0.7%"
   },
